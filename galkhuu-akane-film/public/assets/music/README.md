@@ -15,11 +15,17 @@ Instrumental collection: https://www.jw.org/en/library/music-songs/sing-out-joyf
 All JW music: https://www.jw.org/en/library/music-songs/
 Terms of use: https://www.jw.org/en/terms-of-use/
 
-> **Verification status: UNVERIFIED.** The cloud build environment could not reach jw.org, so
-> nobody has yet confirmed that an *instrumental* recording of each song is downloadable.
-> The operator must check this on the official pages. If one is not available, choose another
-> suitable **official** JW instrumental — never a mirror, a guessed direct URL, a cover, an
-> AI imitation, or a remix.
+> **Checked 2026-11-05 on the official pages:** for songs 132, 154 and 85 the **"Instrumental"**
+> version is **not available** (the site's own link returns 404). The music-only **"Meetings"**
+> recordings *are* available, and those were used:
+>
+> | Song | File (official jw-cdn download) | Length | Loudness | Used for |
+> | --- | --- | --- | --- | --- |
+> | 132 *Now We Are One* | `sjjm_E_132.mp3` | 129.8 s | −15.7 LUFS | Opening film, 0–80 s, −2.7 dB, 5 s fade-out |
+> | 154 *Unfailing Love* | `sjjm_E_154.mp3` | 235.4 s | −18.4 LUFS | Guest loop, starts at 0:02, ends ~3:52 |
+> | 85 *Welcome One Another* | `sjjm_E_085.mp3` | 132.5 s | — | alternate (not used) |
+>
+> Please listen once to confirm these "Meetings" recordings are the music-only arrangement you want.
 
 ## How to obtain (operator, on your own computer)
 
@@ -29,6 +35,10 @@ Terms of use: https://www.jw.org/en/terms-of-use/
 4. Keep the file on your own computer only.
 
 ## Rights — read before attaching music to any video
+
+**Decision on record (2026-11-05):** the user instructed that the official recordings may be
+downloaded, stored and used for this film, including Zoom. The note below is kept for the
+organiser's awareness; it was not independently verified.
 
 The jw.org terms allow personal, noncommercial viewing and downloading, but restrict uploading,
 embedding in distributed applications and online republication. Those terms **do not by themselves

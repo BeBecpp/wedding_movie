@@ -87,6 +87,31 @@ for (const exp of expected) {
   r.status = ok && (r.seamPass ?? true) && (r.firstFrameNotBlack ?? true) ? "PASS" : "CHECK";
   results.push(r);
 }
+// music versions (local files, if present)
+for (const f of fs.readdirSync("out").filter((n) => /_with_music_.*\.mp4$/.test(n))) {
+  const file = `out/${f}`;
+  const p = probe(file);
+  const v = p.streams.find((s) => s.codec_type === "video");
+  const a = p.streams.find((s) => s.codec_type === "audio");
+  const lr = ff("ffmpeg", ["-nostats", "-i", file, "-map", "0:a", "-af", "ebur128=peak=true", "-f", "null", "-"]);
+  const I = /I:\s+(-?[0-9.]+) LUFS/.exec(lr.stderr ?? "");
+  const TP = /Peak:\s+(-?[0-9.]+) dBFS/.exec(lr.stderr ?? "");
+  const r = {
+    file,
+    sizeMB: +(Number(p.format.size) / 1e6).toFixed(1),
+    duration: +Number(p.format.duration).toFixed(3),
+    frames: Number(v.nb_read_frames),
+    width: v.width,
+    height: v.height,
+    pix_fmt: v.pix_fmt,
+    audio: a ? `${a.codec_name} ${a.channels}ch ${a.sample_rate} Hz` : "none",
+    integratedLUFS: I ? Number(I[1]) : null,
+    truePeakDBFS: TP ? Number(TP[1]) : null,
+    audioStreams: a ? 1 : 0,
+  };
+  r.status = a && a.codec_name === "aac" && a.channels === 2 && (r.frames === 2400 || r.frames === 7200) ? "PASS" : "CHECK";
+  results.push(r);
+}
 fs.writeFileSync("out/verification.json", JSON.stringify(results, null, 2) + "\n");
 console.table(results.map(({ file, status, sizeMB, duration, frames, fps, width, height, pix_fmt, audioStreams }) => ({ file: path.basename(file), status, sizeMB, duration, frames, fps, size: `${width}x${height}`, pix_fmt, audioStreams })));
 for (const r of results) {

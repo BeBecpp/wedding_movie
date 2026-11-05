@@ -7,7 +7,7 @@
  *   node scripts/mux-music.mjs --video out/WeddingOpeningFilm_1080p_silent.mp4 \
  *     --audio "/Users/me/Music/approved-instrumental.m4a" \
  *     --out out/WeddingOpeningFilm_1080p_LOCAL_WITH_MUSIC.mp4 \
- *     --offset 0 --fade-in 1.5 --fade-out 4 --gain -3 --i-confirm-rights
+ *     --offset 0 --fade-in 1.5 --fade-out 4 --gain -3 [--delay 2] --i-confirm-rights
  */
 import fs from "node:fs";
 import { ff } from "./lib-ff.mjs";
@@ -45,13 +45,15 @@ const offset = Number(get("offset", "0"));
 const fin = Number(get("fade-in", "1.5"));
 const fout = Number(get("fade-out", "4"));
 const gain = Number(get("gain", "0"));
+const delay = Number(get("delay", "0")); // seconds of silence before the music starts
 const af = [
   `atrim=start=${offset}`,
   "asetpts=PTS-STARTPTS",
-  `afade=t=in:st=0:d=${fin}`,
-  `afade=t=out:st=${Math.max(0, dur - fout)}:d=${fout}`,
-  `volume=${gain}dB`,
+  ...(fin > 0 ? [`afade=t=in:st=0:d=${fin}`] : []),
+  ...(delay > 0 ? [`adelay=${Math.round(delay * 1000)}:all=1`] : []),
   "apad",
+  ...(fout > 0 ? [`afade=t=out:st=${Math.max(0, dur - fout)}:d=${fout}`] : []),
+  `volume=${gain}dB`,
 ].join(",");
 const r = ff("ffmpeg", [
   "-y", "-loglevel", "error", "-i", video, "-i", audio,
