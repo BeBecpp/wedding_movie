@@ -1,0 +1,18 @@
+node_modules/
+.DS_Store
+# Render outputs are delivered separately (see README); keep source repo light.
+out/*.mp4
+out/tmp/
+# LOCAL-ONLY authorised music. Never commit or upload audio files.
+public/local-audio/
+*.mp3
+*.m4a
+*.aac
+*.wav
+*.flac
+*.ogg
+# Original photo drop folder (processed copies go to public/assets/photos)
+photos-inbox/*
+!photos-inbox/README.md
+out/tmp/
+out/verification.json

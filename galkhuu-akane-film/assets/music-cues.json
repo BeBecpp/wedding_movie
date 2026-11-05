@@ -1,0 +1,434 @@
+{
+  "$comment": "Editorial cue sheet. Timecodes are PICTURE markers from the storyboard — NOT measured beats. bpm/durationSeconds/beatMarkers stay null until an AUTHORISED recording is listened to locally. No audio bytes or remote audio URLs belong in this file.",
+  "withMusic": false,
+  "rightsStatus": "UNVERIFIED — awaiting organiser / rights-holder confirmation for synchronisation, in-room playback, Zoom sharing and recording",
+  "compositions": {
+    "WeddingOpeningFilm": {
+      "durationFrames": 2400,
+      "fps": 30,
+      "candidateSong": {
+        "number": 132,
+        "title": "Now We Are One",
+        "page": "https://www.jw.org/en/library/music-songs/sing-out-joyfully/132-now-we-are-one/",
+        "preferred": "instrumental",
+        "availabilityVerified": false
+      },
+      "localAudioFile": null,
+      "audioOffsetSec": 0,
+      "bpm": null,
+      "durationSeconds": null,
+      "beatMarkers": [],
+      "phases": [
+        {
+          "name": "Anticipation",
+          "from": "00:00",
+          "to": "00:07",
+          "musicIntent": "intro; very soft entry"
+        },
+        {
+          "name": "Portraits",
+          "from": "00:07",
+          "to": "00:18",
+          "musicIntent": "first phrase; Meet Galkhuu / Meet Akane can land on phrase starts"
+        },
+        {
+          "name": "Together",
+          "from": "00:18",
+          "to": "00:31",
+          "musicIntent": "warm, steady"
+        },
+        {
+          "name": "Gentle humour",
+          "from": "00:31",
+          "to": "00:44",
+          "musicIntent": "lighter passage; reaction cuts (00:36.8, 00:39.0) can move onto beats"
+        },
+        {
+          "name": "Details",
+          "from": "00:44",
+          "to": "00:59",
+          "musicIntent": "breathe; no text"
+        },
+        {
+          "name": "Hero payoff",
+          "from": "00:59",
+          "to": "01:11",
+          "musicIntent": "melodic lift / chorus"
+        },
+        {
+          "name": "Title hold",
+          "from": "01:11",
+          "to": "01:20",
+          "musicIntent": "resolve and fade by 01:20 (operator cue)"
+        }
+      ],
+      "shots": [
+        {
+          "shot": "op01-dawn",
+          "start": "00:00.0",
+          "startFrame": 0,
+          "durationSec": 7,
+          "transitionIn": "start",
+          "marker": "Intro — quiet reveal"
+        },
+        {
+          "shot": "op02-meet-galkhuu",
+          "start": "00:07.0",
+          "startFrame": 210,
+          "durationSec": 4.5,
+          "transitionIn": "veil",
+          "marker": "Portraits"
+        },
+        {
+          "shot": "op03-meet-akane",
+          "start": "00:11.5",
+          "startFrame": 345,
+          "durationSec": 3.5,
+          "transitionIn": "cut"
+        },
+        {
+          "shot": "op04-split",
+          "start": "00:15.0",
+          "startFrame": 450,
+          "durationSec": 3,
+          "transitionIn": "dissolve"
+        },
+        {
+          "shot": "op05-couple-first",
+          "start": "00:18.0",
+          "startFrame": 540,
+          "durationSec": 8,
+          "transitionIn": "bloom",
+          "marker": "Together — first couple portrait (hold)"
+        },
+        {
+          "shot": "op06-close-smiles",
+          "start": "00:26.0",
+          "startFrame": 780,
+          "durationSec": 5,
+          "transitionIn": "dissolve"
+        },
+        {
+          "shot": "op07-laughter",
+          "start": "00:31.0",
+          "startFrame": 930,
+          "durationSec": 4.5,
+          "transitionIn": "wipe",
+          "marker": "Light-hearted lift"
+        },
+        {
+          "shot": "op08-reaction",
+          "start": "00:35.5",
+          "startFrame": 1065,
+          "durationSec": 5.5,
+          "transitionIn": "cut",
+          "marker": "Reaction edit — clean cuts on the beat if music allows"
+        },
+        {
+          "shot": "op09-love",
+          "start": "00:41.0",
+          "startFrame": 1230,
+          "durationSec": 3,
+          "transitionIn": "dissolve"
+        },
+        {
+          "shot": "op10-hands",
+          "start": "00:44.0",
+          "startFrame": 1320,
+          "durationSec": 3.5,
+          "transitionIn": "drift",
+          "marker": "Breathing section — details"
+        },
+        {
+          "shot": "op11-details",
+          "start": "00:47.5",
+          "startFrame": 1425,
+          "durationSec": 3.5,
+          "transitionIn": "wipe"
+        },
+        {
+          "shot": "op12-walk",
+          "start": "00:51.0",
+          "startFrame": 1530,
+          "durationSec": 4,
+          "transitionIn": "dissolve"
+        },
+        {
+          "shot": "op13-look",
+          "start": "00:55.0",
+          "startFrame": 1650,
+          "durationSec": 4,
+          "transitionIn": "bloom"
+        },
+        {
+          "shot": "op14-hero",
+          "start": "00:59.0",
+          "startFrame": 1770,
+          "durationSec": 12,
+          "transitionIn": "dissolve",
+          "marker": "Hero payoff — let the melody lift here"
+        },
+        {
+          "shot": "op15-endcard",
+          "start": "01:11.0",
+          "startFrame": 2130,
+          "durationSec": 9,
+          "transitionIn": "dissolve",
+          "marker": "End card — names held stable from 01:13.5 to 01:20"
+        }
+      ]
+    },
+    "WeddingGuestLoop": {
+      "durationFrames": 7200,
+      "fps": 30,
+      "candidateSong": {
+        "number": 154,
+        "title": "Unfailing Love",
+        "page": "https://www.jw.org/en/library/music-songs/sing-out-joyfully/154-unfailing-love/",
+        "preferred": "instrumental",
+        "availabilityVerified": false
+      },
+      "alternateSong": {
+        "number": 85,
+        "title": "Welcome One Another",
+        "page": "https://www.jw.org/en/library/music-songs/sing-out-joyfully/85-welcome-one-another/",
+        "preferred": "instrumental",
+        "availabilityVerified": false
+      },
+      "recommendedPlayback": "Play picture loop silently and, if approved, play the audio separately on loop at low level (music length will not match 4:00).",
+      "localAudioFile": null,
+      "bpm": null,
+      "durationSeconds": null,
+      "beatMarkers": [],
+      "phases": [
+        {
+          "name": "Welcome",
+          "from": "00:00",
+          "to": "00:24"
+        },
+        {
+          "name": "Portraits",
+          "from": "00:24",
+          "to": "01:04"
+        },
+        {
+          "name": "Together",
+          "from": "01:04",
+          "to": "01:42"
+        },
+        {
+          "name": "Candid joy",
+          "from": "01:42",
+          "to": "02:18"
+        },
+        {
+          "name": "Details",
+          "from": "02:18",
+          "to": "03:02"
+        },
+        {
+          "name": "Deep warm hero",
+          "from": "03:02",
+          "to": "03:32"
+        },
+        {
+          "name": "Reprise + seamless return",
+          "from": "03:32",
+          "to": "04:00"
+        }
+      ],
+      "shots": [
+        {
+          "shot": "lp01-welcome",
+          "start": "00:00.0",
+          "startFrame": 0,
+          "durationSec": 24,
+          "transitionIn": "start",
+          "marker": "Welcome — loop start (seamless)"
+        },
+        {
+          "shot": "lp02-galkhuu-1",
+          "start": "00:24.0",
+          "startFrame": 720,
+          "durationSec": 8,
+          "transitionIn": "dissolve",
+          "marker": "Portraits"
+        },
+        {
+          "shot": "lp03-akane-1",
+          "start": "00:32.0",
+          "startFrame": 960,
+          "durationSec": 8,
+          "transitionIn": "drift"
+        },
+        {
+          "shot": "lp04-pair",
+          "start": "00:40.0",
+          "startFrame": 1200,
+          "durationSec": 8,
+          "transitionIn": "veil"
+        },
+        {
+          "shot": "lp05-galkhuu-3",
+          "start": "00:48.0",
+          "startFrame": 1440,
+          "durationSec": 7,
+          "transitionIn": "dissolve"
+        },
+        {
+          "shot": "lp06-akane-3",
+          "start": "00:55.0",
+          "startFrame": 1650,
+          "durationSec": 9,
+          "transitionIn": "wipe"
+        },
+        {
+          "shot": "lp07-look",
+          "start": "01:04.0",
+          "startFrame": 1920,
+          "durationSec": 10,
+          "transitionIn": "bloom",
+          "marker": "Together"
+        },
+        {
+          "shot": "lp08-walk",
+          "start": "01:14.0",
+          "startFrame": 2220,
+          "durationSec": 7,
+          "transitionIn": "dissolve"
+        },
+        {
+          "shot": "lp09-collage",
+          "start": "01:21.0",
+          "startFrame": 2430,
+          "durationSec": 9,
+          "transitionIn": "wipe"
+        },
+        {
+          "shot": "lp10-close",
+          "start": "01:30.0",
+          "startFrame": 2700,
+          "durationSec": 6,
+          "transitionIn": "dissolve"
+        },
+        {
+          "shot": "lp11-hands",
+          "start": "01:36.0",
+          "startFrame": 2880,
+          "durationSec": 6,
+          "transitionIn": "drift"
+        },
+        {
+          "shot": "lp12-laugh",
+          "start": "01:42.0",
+          "startFrame": 3060,
+          "durationSec": 7,
+          "transitionIn": "bloom",
+          "marker": "Candid joy"
+        },
+        {
+          "shot": "lp13-reaction",
+          "start": "01:49.0",
+          "startFrame": 3270,
+          "durationSec": 8,
+          "transitionIn": "dissolve"
+        },
+        {
+          "shot": "lp14-family",
+          "start": "01:57.0",
+          "startFrame": 3510,
+          "durationSec": 7,
+          "transitionIn": "dissolve"
+        },
+        {
+          "shot": "lp15-collage",
+          "start": "02:04.0",
+          "startFrame": 3720,
+          "durationSec": 8,
+          "transitionIn": "veil"
+        },
+        {
+          "shot": "lp16-candid",
+          "start": "02:12.0",
+          "startFrame": 3960,
+          "durationSec": 6,
+          "transitionIn": "dissolve"
+        },
+        {
+          "shot": "lp17-bouquet",
+          "start": "02:18.0",
+          "startFrame": 4140,
+          "durationSec": 8,
+          "transitionIn": "bloom",
+          "marker": "Details"
+        },
+        {
+          "shot": "lp18-invitation",
+          "start": "02:26.0",
+          "startFrame": 4380,
+          "durationSec": 7,
+          "transitionIn": "dissolve"
+        },
+        {
+          "shot": "lp19-collage",
+          "start": "02:33.0",
+          "startFrame": 4590,
+          "durationSec": 9,
+          "transitionIn": "wipe"
+        },
+        {
+          "shot": "lp20-hands",
+          "start": "02:42.0",
+          "startFrame": 4860,
+          "durationSec": 7,
+          "transitionIn": "dissolve"
+        },
+        {
+          "shot": "lp21-decor",
+          "start": "02:49.0",
+          "startFrame": 5070,
+          "durationSec": 6,
+          "transitionIn": "drift"
+        },
+        {
+          "shot": "lp22-attire",
+          "start": "02:55.0",
+          "startFrame": 5250,
+          "durationSec": 7,
+          "transitionIn": "dissolve"
+        },
+        {
+          "shot": "lp23-hero",
+          "start": "03:02.0",
+          "startFrame": 5460,
+          "durationSec": 14,
+          "transitionIn": "bloom",
+          "marker": "Deep warm hero — emotional lift"
+        },
+        {
+          "shot": "lp24-hero3",
+          "start": "03:16.0",
+          "startFrame": 5880,
+          "durationSec": 16,
+          "transitionIn": "dissolve"
+        },
+        {
+          "shot": "lp25-thanks",
+          "start": "03:32.0",
+          "startFrame": 6360,
+          "durationSec": 18,
+          "transitionIn": "dissolve",
+          "marker": "Reprise — thank you"
+        },
+        {
+          "shot": "lp26-welcome-tail",
+          "start": "03:50.0",
+          "startFrame": 6900,
+          "durationSec": 10,
+          "transitionIn": "bloom",
+          "marker": "Welcome reprise — flows into 00:00"
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,41 @@
+{
+  "name": "galkhuu-akane-film",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Galkhuu & Akane wedding film — A Little Laughter, A Lifetime Together (Remotion)",
+  "license": "UNLICENSED",
+  "scripts": {
+    "studio": "remotion studio",
+    "typecheck": "tsc --noEmit",
+    "check:photos": "node scripts/check-photos.mjs",
+    "photos": "node scripts/install-photos.mjs",
+    "test:render": "remotion render WeddingOpeningFilm out/test_5s.mp4 --frames=180-329 --color-space=bt709",
+    "render:opening": "remotion render WeddingOpeningFilm out/WeddingOpeningFilm_1080p_silent.mp4 --color-space=bt709",
+    "render:loop": "remotion render WeddingGuestLoop out/WeddingGuestLoop_1080p_silent.mp4 --color-space=bt709",
+    "render:still": "remotion still WelcomeStill out/WelcomeStill_1920x1080.png",
+    "render:720": "node scripts/make-720p.mjs",
+    "render:all": "npm run render:opening && npm run render:loop && npm run render:still && npm run render:720",
+    "stills": "node scripts/render-stills.mjs",
+    "verify": "node scripts/verify-outputs.mjs",
+    "mux:music": "node scripts/mux-music.mjs",
+    "cues": "node scripts/export-cues.mjs"
+  },
+  "dependencies": {
+    "@fontsource/cormorant-garamond": "5.3.0",
+    "@fontsource/inter": "5.3.0",
+    "@remotion/bundler": "4.0.541",
+    "@remotion/cli": "4.0.541",
+    "@remotion/fonts": "4.0.541",
+    "@remotion/renderer": "4.0.541",
+    "@remotion/transitions": "4.0.541",
+    "react": "19.0.0",
+    "react-dom": "19.0.0",
+    "remotion": "4.0.541"
+  },
+  "devDependencies": {
+    "@types/node": "22.10.0",
+    "@types/react": "19.0.0",
+    "sharp": "0.34.5",
+    "typescript": "5.6.3"
+  }
+}
