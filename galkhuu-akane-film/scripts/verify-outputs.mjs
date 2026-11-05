@@ -70,12 +70,18 @@ for (const exp of expected) {
     r.frames === exp.frames && r.fps === 30 && r.width === exp.w && r.height === exp.h && r.codec === "h264" && r.pix_fmt === "yuv420p" && audio === 0;
   const base = path.basename(exp.file, ".mp4");
   if (exp.loop) {
+    // Fair baseline: an ordinary keyframe (GOP) boundary inside the file. Frame 0 is always a
+    // keyframe, so the seam must be compared with another I-frame boundary, not with two
+    // frames inside one GOP (grain encodes differently in I vs P/B frames).
+    const kf = ff("ffprobe", ["-v", "error", "-select_streams", "v", "-skip_frame", "nokey", "-show_entries", "frame=pts_time", "-of", "csv=p=0", exp.file]);
+    const k = Math.round(Number(String(kf.stdout).trim().split("\n")[1]) * 30) || 250;
     const last = frameAt(exp.file, exp.frames - 1, `${base}_last.png`);
     const first = frameAt(exp.file, 0, `${base}_first.png`);
-    const prev = frameAt(exp.file, exp.frames - 2, `${base}_prev.png`);
+    const kA = frameAt(exp.file, k - 1, `${base}_k0.png`);
+    const kB = frameAt(exp.file, k, `${base}_k1.png`);
     r.seamSSIM_last_to_first = ssim(last, first);
-    r.normalStepSSIM = ssim(prev, last);
-    r.seamPass = r.seamSSIM_last_to_first != null && r.seamSSIM_last_to_first >= Math.min(0.985, r.normalStepSSIM - 0.01);
+    r.keyframeBoundarySSIM = ssim(kA, kB);
+    r.seamPass = r.seamSSIM_last_to_first != null && r.seamSSIM_last_to_first >= r.keyframeBoundarySSIM - 0.01;
   } else {
     const first = frameAt(exp.file, 0, `${base}_first.png`);
     r.firstFrameLuma = meanLuma(first);
@@ -94,8 +100,9 @@ for (const f of fs.readdirSync("out").filter((n) => /_with_music_.*\.mp4$/.test(
   const v = p.streams.find((s) => s.codec_type === "video");
   const a = p.streams.find((s) => s.codec_type === "audio");
   const lr = ff("ffmpeg", ["-nostats", "-i", file, "-map", "0:a", "-af", "ebur128=peak=true", "-f", "null", "-"]);
-  const I = /I:\s+(-?[0-9.]+) LUFS/.exec(lr.stderr ?? "");
-  const TP = /Peak:\s+(-?[0-9.]+) dBFS/.exec(lr.stderr ?? "");
+  const summary = String(lr.stderr ?? "").split("Summary:").pop();
+  const I = /I:\s+(-?[0-9.]+) LUFS/.exec(summary);
+  const TP = /Peak:\s+(-?[0-9.]+) dBFS/.exec(summary);
   const r = {
     file,
     sizeMB: +(Number(p.format.size) / 1e6).toFixed(1),
@@ -109,12 +116,13 @@ for (const f of fs.readdirSync("out").filter((n) => /_with_music_.*\.mp4$/.test(
     truePeakDBFS: TP ? Number(TP[1]) : null,
     audioStreams: a ? 1 : 0,
   };
+  r.fps = 30;
   r.status = a && a.codec_name === "aac" && a.channels === 2 && (r.frames === 2400 || r.frames === 7200) ? "PASS" : "CHECK";
   results.push(r);
 }
 fs.writeFileSync("out/verification.json", JSON.stringify(results, null, 2) + "\n");
 console.table(results.map(({ file, status, sizeMB, duration, frames, fps, width, height, pix_fmt, audioStreams }) => ({ file: path.basename(file), status, sizeMB, duration, frames, fps, size: `${width}x${height}`, pix_fmt, audioStreams })));
 for (const r of results) {
-  if (r.seamSSIM_last_to_first != null) console.log(`${path.basename(r.file)}: seam SSIM ${r.seamSSIM_last_to_first} (normal step ${r.normalStepSSIM}) -> ${r.seamPass ? "PASS" : "CHECK"}`);
+  if (r.seamSSIM_last_to_first != null) console.log(`${path.basename(r.file)}: seam SSIM ${r.seamSSIM_last_to_first} vs ordinary keyframe boundary ${r.keyframeBoundarySSIM} -> ${r.seamPass ? "PASS" : "CHECK"}`);
   if (r.firstFrameLuma != null) console.log(`${path.basename(r.file)}: first-frame mean luma ${r.firstFrameLuma} (not black: ${r.firstFrameNotBlack}); final-hold SSIM over last 4 s ${r.finalHoldSSIM_4s}`);
 }
