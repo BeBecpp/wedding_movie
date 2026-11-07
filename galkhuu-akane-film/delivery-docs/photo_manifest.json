@@ -1,0 +1,1942 @@
+{
+ "film": "WeddingMemoryFilm",
+ "duration_s": 254.0,
+ "fps": 30,
+ "photos": [
+  {
+   "photo_id": "01",
+   "original_filename": "0b74c91c-4e3a-4c67-bf42-5feaa05b5b88.jpg",
+   "file_size": [
+    944,
+    2046
+   ],
+   "letterbox_detected": true,
+   "crop_box_xyxy": [
+    0,
+    315,
+    944,
+    1731
+   ],
+   "cropped_size": [
+    944,
+    1416
+   ],
+   "processed_copy": "public/local-photos/memory/01.jpg (metadata stripped, local only)",
+   "status": "used",
+   "uses": [
+    {
+     "shot": 16,
+     "layout": "gallery",
+     "chapter": "2 The People in Our Lives",
+     "start_s": 83.0,
+     "end_s": 89.0,
+     "focalX": 0.5,
+     "focalY": 0.45
+    }
+   ],
+   "identity_review": "REVIEW: people not identified; bride/groom, kinship and dates NOT confirmed",
+   "chronology_review": "REVIEW: chapter placement is an editorial guess from the contact sheets"
+  },
+  {
+   "photo_id": "02",
+   "original_filename": "1d19e6ad-6e70-4058-9941-6c1481613445.jpg",
+   "file_size": [
+    944,
+    2046
+   ],
+   "letterbox_detected": true,
+   "crop_box_xyxy": [
+    0,
+    670,
+    944,
+    1375
+   ],
+   "cropped_size": [
+    944,
+    705
+   ],
+   "processed_copy": "public/local-photos/memory/02.jpg (metadata stripped, local only)",
+   "status": "used",
+   "uses": [
+    {
+     "shot": 27,
+     "layout": "gallery",
+     "chapter": "3 Our Own Stories",
+     "start_s": 154.0,
+     "end_s": 161.0,
+     "focalX": 0.5,
+     "focalY": 0.45
+    }
+   ],
+   "identity_review": "REVIEW: people not identified; bride/groom, kinship and dates NOT confirmed",
+   "chronology_review": "REVIEW: chapter placement is an editorial guess from the contact sheets"
+  },
+  {
+   "photo_id": "03",
+   "original_filename": "202ff2fb-3692-4ad0-9e81-7489af25c105 (1).jpg",
+   "file_size": [
+    944,
+    2046
+   ],
+   "letterbox_detected": true,
+   "crop_box_xyxy": [
+    0,
+    671,
+    944,
+    1375
+   ],
+   "cropped_size": [
+    944,
+    704
+   ],
+   "processed_copy": "public/local-photos/memory/03.jpg (metadata stripped, local only)",
+   "status": "used",
+   "uses": [
+    {
+     "shot": 35,
+     "layout": "feature",
+     "chapter": "4 A Beautiful New Chapter",
+     "start_s": 211.0,
+     "end_s": 218.0,
+     "focalX": 0.5,
+     "focalY": 0.45
+    }
+   ],
+   "identity_review": "REVIEW: people not identified; bride/groom, kinship and dates NOT confirmed",
+   "chronology_review": "REVIEW: chapter placement is an editorial guess from the contact sheets"
+  },
+  {
+   "photo_id": "04",
+   "original_filename": "2447ef1d-2014-461b-bc30-db5b563172f8.jpg",
+   "file_size": [
+    944,
+    2046
+   ],
+   "letterbox_detected": true,
+   "crop_box_xyxy": [
+    0,
+    671,
+    944,
+    1375
+   ],
+   "cropped_size": [
+    944,
+    704
+   ],
+   "processed_copy": "public/local-photos/memory/04.jpg (metadata stripped, local only)",
+   "status": "used",
+   "uses": [
+    {
+     "shot": 15,
+     "layout": "feature",
+     "chapter": "2 The People in Our Lives",
+     "start_s": 77.0,
+     "end_s": 83.0,
+     "focalX": 0.5,
+     "focalY": 0.45
+    }
+   ],
+   "identity_review": "REVIEW: people not identified; bride/groom, kinship and dates NOT confirmed",
+   "chronology_review": "REVIEW: chapter placement is an editorial guess from the contact sheets"
+  },
+  {
+   "photo_id": "05",
+   "original_filename": "2a88a929-6e77-4adf-a3f7-c368984b8b18.jpg",
+   "file_size": [
+    2048,
+    946
+   ],
+   "letterbox_detected": true,
+   "crop_box_xyxy": [
+    395,
+    0,
+    1653,
+    946
+   ],
+   "cropped_size": [
+    1258,
+    946
+   ],
+   "processed_copy": "public/local-photos/memory/05.jpg (metadata stripped, local only)",
+   "status": "used",
+   "uses": [
+    {
+     "shot": 13,
+     "layout": "gallery",
+     "chapter": "2 The People in Our Lives",
+     "start_s": 65.0,
+     "end_s": 71.0,
+     "focalX": 0.5,
+     "focalY": 0.45
+    }
+   ],
+   "identity_review": "REVIEW: people not identified; bride/groom, kinship and dates NOT confirmed",
+   "chronology_review": "REVIEW: chapter placement is an editorial guess from the contact sheets"
+  },
+  {
+   "photo_id": "06",
+   "original_filename": "2cedbe4f-1281-4b14-9adb-b2f6f043d704.jpg",
+   "file_size": [
+    944,
+    2046
+   ],
+   "letterbox_detected": true,
+   "crop_box_xyxy": [
+    0,
+    396,
+    944,
+    1651
+   ],
+   "cropped_size": [
+    944,
+    979
+   ],
+   "processed_copy": "public/local-photos/memory/06.jpg (metadata stripped, local only)",
+   "status": "used",
+   "uses": [
+    {
+     "shot": 10,
+     "layout": "gallery",
+     "chapter": "1 The Beginning",
+     "start_s": 48.5,
+     "end_s": 55.0,
+     "focalX": 0.5,
+     "focalY": 0.45
+    }
+   ],
+   "identity_review": "REVIEW: people not identified; bride/groom, kinship and dates NOT confirmed",
+   "chronology_review": "REVIEW: chapter placement is an editorial guess from the contact sheets"
+  },
+  {
+   "photo_id": "07",
+   "original_filename": "310d78bf-995d-4ac1-8689-fba9ee35e28d.jpg",
+   "file_size": [
+    944,
+    2046
+   ],
+   "letterbox_detected": true,
+   "crop_box_xyxy": [
+    0,
+    671,
+    944,
+    1376
+   ],
+   "cropped_size": [
+    944,
+    705
+   ],
+   "processed_copy": "public/local-photos/memory/07.jpg (metadata stripped, local only)",
+   "status": "used",
+   "uses": [
+    {
+     "shot": 20,
+     "layout": "feature",
+     "chapter": "2 The People in Our Lives",
+     "start_s": 107.0,
+     "end_s": 113.5,
+     "focalX": 0.5,
+     "focalY": 0.45
+    }
+   ],
+   "identity_review": "REVIEW: people not identified; bride/groom, kinship and dates NOT confirmed",
+   "chronology_review": "REVIEW: chapter placement is an editorial guess from the contact sheets"
+  },
+  {
+   "photo_id": "08",
+   "original_filename": "31c16cf9-dda2-443f-becd-6fcf4cfdd61f.jpg",
+   "file_size": [
+    944,
+    2046
+   ],
+   "letterbox_detected": true,
+   "crop_box_xyxy": [
+    0,
+    671,
+    944,
+    1375
+   ],
+   "cropped_size": [
+    944,
+    704
+   ],
+   "processed_copy": "public/local-photos/memory/08.jpg (metadata stripped, local only)",
+   "status": "used",
+   "uses": [
+    {
+     "shot": 33,
+     "layout": "feature",
+     "chapter": "4 A Beautiful New Chapter",
+     "start_s": 197.0,
+     "end_s": 204.0,
+     "focalX": 0.5,
+     "focalY": 0.45
+    }
+   ],
+   "identity_review": "REVIEW: people not identified; bride/groom, kinship and dates NOT confirmed",
+   "chronology_review": "REVIEW: chapter placement is an editorial guess from the contact sheets"
+  },
+  {
+   "photo_id": "09",
+   "original_filename": "35691c3b-4ee7-4431-b11d-17fa6b84fd02.jpg",
+   "file_size": [
+    944,
+    2046
+   ],
+   "letterbox_detected": true,
+   "crop_box_xyxy": [
+    0,
+    671,
+    944,
+    1375
+   ],
+   "cropped_size": [
+    944,
+    704
+   ],
+   "processed_copy": "public/local-photos/memory/09.jpg (metadata stripped, local only)",
+   "status": "used",
+   "uses": [
+    {
+     "shot": 17,
+     "layout": "gallery",
+     "chapter": "2 The People in Our Lives",
+     "start_s": 89.0,
+     "end_s": 95.0,
+     "focalX": 0.5,
+     "focalY": 0.45
+    }
+   ],
+   "identity_review": "REVIEW: people not identified; bride/groom, kinship and dates NOT confirmed",
+   "chronology_review": "REVIEW: chapter placement is an editorial guess from the contact sheets"
+  },
+  {
+   "photo_id": "10",
+   "original_filename": "37292e8e-67b1-4bae-898e-738823aff927.jpg",
+   "file_size": [
+    2048,
+    946
+   ],
+   "letterbox_detected": true,
+   "crop_box_xyxy": [
+    390,
+    0,
+    1654,
+    946
+   ],
+   "cropped_size": [
+    1264,
+    946
+   ],
+   "processed_copy": "public/local-photos/memory/10.jpg (metadata stripped, local only)",
+   "status": "used",
+   "uses": [
+    {
+     "shot": 7,
+     "layout": "feature",
+     "chapter": "1 The Beginning",
+     "start_s": 32.0,
+     "end_s": 37.5,
+     "focalX": 0.5,
+     "focalY": 0.45
+    }
+   ],
+   "identity_review": "REVIEW: people not identified; bride/groom, kinship and dates NOT confirmed",
+   "chronology_review": "REVIEW: chapter placement is an editorial guess from the contact sheets"
+  },
+  {
+   "photo_id": "11",
+   "original_filename": "399551f4-7908-406f-8bd9-8d7aabb6f050.jpg",
+   "file_size": [
+    2048,
+    946
+   ],
+   "letterbox_detected": true,
+   "crop_box_xyxy": [
+    370,
+    0,
+    1677,
+    946
+   ],
+   "cropped_size": [
+    1307,
+    946
+   ],
+   "processed_copy": "public/local-photos/memory/11.jpg (metadata stripped, local only)",
+   "status": "used",
+   "uses": [
+    {
+     "shot": 12,
+     "layout": "feature",
+     "chapter": "2 The People in Our Lives",
+     "start_s": 59.0,
+     "end_s": 65.0,
+     "focalX": 0.5,
+     "focalY": 0.45
+    }
+   ],
+   "identity_review": "REVIEW: people not identified; bride/groom, kinship and dates NOT confirmed",
+   "chronology_review": "REVIEW: chapter placement is an editorial guess from the contact sheets"
+  },
+  {
+   "photo_id": "12",
+   "original_filename": "457305f4-3389-415f-9c74-d0cc72f21f46.jpg",
+   "file_size": [
+    2048,
+    946
+   ],
+   "letterbox_detected": true,
+   "crop_box_xyxy": [
+    390,
+    0,
+    1654,
+    946
+   ],
+   "cropped_size": [
+    1264,
+    946
+   ],
+   "processed_copy": "public/local-photos/memory/12.jpg (metadata stripped, local only)",
+   "status": "used",
+   "uses": [
+    {
+     "shot": 6,
+     "layout": "feature",
+     "chapter": "1 The Beginning",
+     "start_s": 26.5,
+     "end_s": 32.0,
+     "focalX": 0.5,
+     "focalY": 0.45
+    }
+   ],
+   "identity_review": "REVIEW: people not identified; bride/groom, kinship and dates NOT confirmed",
+   "chronology_review": "REVIEW: chapter placement is an editorial guess from the contact sheets"
+  },
+  {
+   "photo_id": "13",
+   "original_filename": "45cdf00a-437b-4ef4-a5e1-d7a2da3866d8 (1).jpg",
+   "file_size": [
+    944,
+    2046
+   ],
+   "letterbox_detected": true,
+   "crop_box_xyxy": [
+    0,
+    396,
+    944,
+    1650
+   ],
+   "cropped_size": [
+    944,
+    1254
+   ],
+   "processed_copy": "public/local-photos/memory/13.jpg (metadata stripped, local only)",
+   "status": "used",
+   "uses": [
+    {
+     "shot": 37,
+     "layout": "feature",
+     "chapter": "4 A Beautiful New Chapter",
+     "start_s": 225.0,
+     "end_s": 233.0,
+     "focalX": 0.5,
+     "focalY": 0.55
+    },
+    {
+     "shot": 38,
+     "layout": "finale",
+     "chapter": "Finale (names)",
+     "start_s": 233.0,
+     "end_s": 254.0,
+     "focalX": 0.5,
+     "focalY": 0.55
+    }
+   ],
+   "identity_review": "REVIEW: people not identified; bride/groom, kinship and dates NOT confirmed",
+   "chronology_review": "REVIEW: chapter placement is an editorial guess from the contact sheets"
+  },
+  {
+   "photo_id": "14",
+   "original_filename": "4a8c817f-b2f2-4f4f-a785-f10a40a35bce.jpg",
+   "file_size": [
+    2048,
+    946
+   ],
+   "letterbox_detected": true,
+   "crop_box_xyxy": [
+    395,
+    0,
+    1653,
+    946
+   ],
+   "cropped_size": [
+    1258,
+    946
+   ],
+   "processed_copy": "public/local-photos/memory/14.jpg (metadata stripped, local only)",
+   "status": "used",
+   "uses": [
+    {
+     "shot": 14,
+     "layout": "gallery",
+     "chapter": "2 The People in Our Lives",
+     "start_s": 71.0,
+     "end_s": 77.0,
+     "focalX": 0.5,
+     "focalY": 0.45
+    }
+   ],
+   "identity_review": "REVIEW: people not identified; bride/groom, kinship and dates NOT confirmed",
+   "chronology_review": "REVIEW: chapter placement is an editorial guess from the contact sheets"
+  },
+  {
+   "photo_id": "15",
+   "original_filename": "4b49a84e-42ff-49d9-b3db-d772cd3bcb18.jpg",
+   "file_size": [
+    944,
+    2046
+   ],
+   "letterbox_detected": true,
+   "crop_box_xyxy": [
+    0,
+    671,
+    944,
+    1375
+   ],
+   "cropped_size": [
+    944,
+    704
+   ],
+   "processed_copy": "public/local-photos/memory/15.jpg (metadata stripped, local only)",
+   "status": "used",
+   "uses": [
+    {
+     "shot": 19,
+     "layout": "gallery",
+     "chapter": "2 The People in Our Lives",
+     "start_s": 101.0,
+     "end_s": 107.0,
+     "focalX": 0.5,
+     "focalY": 0.45
+    }
+   ],
+   "identity_review": "REVIEW: people not identified; bride/groom, kinship and dates NOT confirmed",
+   "chronology_review": "REVIEW: chapter placement is an editorial guess from the contact sheets"
+  },
+  {
+   "photo_id": "16",
+   "original_filename": "4cd5aa2d-7c0c-4675-8006-afde43fc828c.jpg",
+   "file_size": [
+    944,
+    2046
+   ],
+   "letterbox_detected": true,
+   "crop_box_xyxy": [
+    0,
+    396,
+    944,
+    1651
+   ],
+   "cropped_size": [
+    944,
+    1255
+   ],
+   "processed_copy": "public/local-photos/memory/16.jpg (metadata stripped, local only)",
+   "status": "used",
+   "uses": [
+    {
+     "shot": 27,
+     "layout": "gallery",
+     "chapter": "3 Our Own Stories",
+     "start_s": 154.0,
+     "end_s": 161.0,
+     "focalX": 0.5,
+     "focalY": 0.45
+    }
+   ],
+   "identity_review": "REVIEW: people not identified; bride/groom, kinship and dates NOT confirmed",
+   "chronology_review": "REVIEW: chapter placement is an editorial guess from the contact sheets"
+  },
+  {
+   "photo_id": "17",
+   "original_filename": "4d69039f-d384-404e-8bc4-f3650f395019.jpg",
+   "file_size": [
+    944,
+    2046
+   ],
+   "letterbox_detected": true,
+   "crop_box_xyxy": [
+    0,
+    671,
+    944,
+    1375
+   ],
+   "cropped_size": [
+    944,
+    704
+   ],
+   "processed_copy": "public/local-photos/memory/17.jpg (metadata stripped, local only)",
+   "status": "used",
+   "uses": [
+    {
+     "shot": 22,
+     "layout": "gallery",
+     "chapter": "2 The People in Our Lives",
+     "start_s": 120.0,
+     "end_s": 126.5,
+     "focalX": 0.5,
+     "focalY": 0.45
+    }
+   ],
+   "identity_review": "REVIEW: people not identified; bride/groom, kinship and dates NOT confirmed",
+   "chronology_review": "REVIEW: chapter placement is an editorial guess from the contact sheets"
+  },
+  {
+   "photo_id": "18",
+   "original_filename": "4e1bcefe-f3a2-4f2f-b418-fc9cc8acef18.jpg",
+   "file_size": [
+    944,
+    2046
+   ],
+   "letterbox_detected": true,
+   "crop_box_xyxy": [
+    0,
+    671,
+    944,
+    1375
+   ],
+   "cropped_size": [
+    944,
+    704
+   ],
+   "processed_copy": "public/local-photos/memory/18.jpg (metadata stripped, local only)",
+   "status": "used",
+   "uses": [
+    {
+     "shot": 32,
+     "layout": "gallery",
+     "chapter": "4 A Beautiful New Chapter",
+     "start_s": 190.0,
+     "end_s": 197.0,
+     "focalX": 0.5,
+     "focalY": 0.45
+    }
+   ],
+   "identity_review": "REVIEW: people not identified; bride/groom, kinship and dates NOT confirmed",
+   "chronology_review": "REVIEW: chapter placement is an editorial guess from the contact sheets"
+  },
+  {
+   "photo_id": "19",
+   "original_filename": "4e344896-4bfe-4f80-a9c6-65aaece6e276.jpg",
+   "file_size": [
+    946,
+    2047
+   ],
+   "letterbox_detected": true,
+   "crop_box_xyxy": [
+    0,
+    390,
+    946,
+    1653
+   ],
+   "cropped_size": [
+    946,
+    1263
+   ],
+   "processed_copy": "public/local-photos/memory/19.jpg (metadata stripped, local only)",
+   "status": "used",
+   "uses": [
+    {
+     "shot": 10,
+     "layout": "gallery",
+     "chapter": "1 The Beginning",
+     "start_s": 48.5,
+     "end_s": 55.0,
+     "focalX": 0.5,
+     "focalY": 0.45
+    }
+   ],
+   "identity_review": "REVIEW: people not identified; bride/groom, kinship and dates NOT confirmed",
+   "chronology_review": "REVIEW: chapter placement is an editorial guess from the contact sheets"
+  },
+  {
+   "photo_id": "20",
+   "original_filename": "5a111721-9d1d-45ce-a80d-324cb7e110a0.jpg",
+   "file_size": [
+    944,
+    2046
+   ],
+   "letterbox_detected": true,
+   "crop_box_xyxy": [
+    14,
+    411,
+    931,
+    1635
+   ],
+   "cropped_size": [
+    917,
+    1224
+   ],
+   "processed_copy": "public/local-photos/memory/20.jpg (metadata stripped, local only)",
+   "status": "used",
+   "uses": [
+    {
+     "shot": 26,
+     "layout": "feature",
+     "chapter": "3 Our Own Stories",
+     "start_s": 147.0,
+     "end_s": 154.0,
+     "focalX": 0.5,
+     "focalY": 0.45
+    }
+   ],
+   "identity_review": "REVIEW: people not identified; bride/groom, kinship and dates NOT confirmed",
+   "chronology_review": "REVIEW: chapter placement is an editorial guess from the contact sheets"
+  },
+  {
+   "photo_id": "21",
+   "original_filename": "5bc04230-df0b-4787-b10c-fe2317792fcb.jpg",
+   "file_size": [
+    2048,
+    1536
+   ],
+   "letterbox_detected": false,
+   "crop_box_xyxy": [
+    0,
+    0,
+    2048,
+    1536
+   ],
+   "cropped_size": [
+    2048,
+    1536
+   ],
+   "processed_copy": "public/local-photos/memory/21.jpg (metadata stripped, local only)",
+   "status": "used",
+   "uses": [
+    {
+     "shot": 21,
+     "layout": "gallery",
+     "chapter": "2 The People in Our Lives",
+     "start_s": 113.5,
+     "end_s": 120.0,
+     "focalX": 0.5,
+     "focalY": 0.45
+    }
+   ],
+   "identity_review": "REVIEW: people not identified; bride/groom, kinship and dates NOT confirmed",
+   "chronology_review": "REVIEW: chapter placement is an editorial guess from the contact sheets"
+  },
+  {
+   "photo_id": "22",
+   "original_filename": "5d735e04-3797-455c-84f0-7dd99bda8b3a.jpg",
+   "file_size": [
+    944,
+    2046
+   ],
+   "letterbox_detected": true,
+   "crop_box_xyxy": [
+    0,
+    541,
+    944,
+    1504
+   ],
+   "cropped_size": [
+    944,
+    963
+   ],
+   "processed_copy": "public/local-photos/memory/22.jpg (metadata stripped, local only)",
+   "status": "used",
+   "uses": [
+    {
+     "shot": 34,
+     "layout": "feature",
+     "chapter": "4 A Beautiful New Chapter",
+     "start_s": 204.0,
+     "end_s": 211.0,
+     "focalX": 0.5,
+     "focalY": 0.45
+    }
+   ],
+   "identity_review": "REVIEW: people not identified; bride/groom, kinship and dates NOT confirmed",
+   "chronology_review": "REVIEW: chapter placement is an editorial guess from the contact sheets"
+  },
+  {
+   "photo_id": "23",
+   "original_filename": "65d432f5-7751-4958-a0de-017f833094d6.jpg",
+   "file_size": [
+    944,
+    2046
+   ],
+   "letterbox_detected": true,
+   "crop_box_xyxy": [
+    0,
+    671,
+    944,
+    1375
+   ],
+   "cropped_size": [
+    944,
+    704
+   ],
+   "processed_copy": "public/local-photos/memory/23.jpg (metadata stripped, local only)",
+   "status": "used",
+   "uses": [
+    {
+     "shot": 32,
+     "layout": "gallery",
+     "chapter": "4 A Beautiful New Chapter",
+     "start_s": 190.0,
+     "end_s": 197.0,
+     "focalX": 0.5,
+     "focalY": 0.45
+    }
+   ],
+   "identity_review": "REVIEW: people not identified; bride/groom, kinship and dates NOT confirmed",
+   "chronology_review": "REVIEW: chapter placement is an editorial guess from the contact sheets"
+  },
+  {
+   "photo_id": "24",
+   "original_filename": "69dd783f-4290-4316-81ca-08d3c8c2bc69.jpg",
+   "file_size": [
+    944,
+    2046
+   ],
+   "letterbox_detected": true,
+   "crop_box_xyxy": [
+    0,
+    671,
+    944,
+    1375
+   ],
+   "cropped_size": [
+    944,
+    704
+   ],
+   "processed_copy": "public/local-photos/memory/24.jpg (metadata stripped, local only)",
+   "status": "used",
+   "uses": [
+    {
+     "shot": 17,
+     "layout": "gallery",
+     "chapter": "2 The People in Our Lives",
+     "start_s": 89.0,
+     "end_s": 95.0,
+     "focalX": 0.5,
+     "focalY": 0.45
+    }
+   ],
+   "identity_review": "REVIEW: people not identified; bride/groom, kinship and dates NOT confirmed",
+   "chronology_review": "REVIEW: chapter placement is an editorial guess from the contact sheets"
+  },
+  {
+   "photo_id": "25",
+   "original_filename": "8599f815-ed66-4e8a-a2b7-9c09b76fabe1.jpg",
+   "file_size": [
+    2048,
+    946
+   ],
+   "letterbox_detected": true,
+   "crop_box_xyxy": [
+    395,
+    0,
+    1653,
+    946
+   ],
+   "cropped_size": [
+    1258,
+    946
+   ],
+   "processed_copy": "public/local-photos/memory/25.jpg (metadata stripped, local only)",
+   "status": "used",
+   "uses": [
+    {
+     "shot": 14,
+     "layout": "gallery",
+     "chapter": "2 The People in Our Lives",
+     "start_s": 71.0,
+     "end_s": 77.0,
+     "focalX": 0.5,
+     "focalY": 0.45
+    }
+   ],
+   "identity_review": "REVIEW: people not identified; bride/groom, kinship and dates NOT confirmed",
+   "chronology_review": "REVIEW: chapter placement is an editorial guess from the contact sheets"
+  },
+  {
+   "photo_id": "26",
+   "original_filename": "8982195b-8260-481f-8786-b6bd39f12366.jpg",
+   "file_size": [
+    944,
+    2046
+   ],
+   "letterbox_detected": true,
+   "crop_box_xyxy": [
+    0,
+    671,
+    944,
+    1375
+   ],
+   "cropped_size": [
+    944,
+    704
+   ],
+   "processed_copy": "public/local-photos/memory/26.jpg (metadata stripped, local only)",
+   "status": "used",
+   "uses": [
+    {
+     "shot": 8,
+     "layout": "feature",
+     "chapter": "1 The Beginning",
+     "start_s": 37.5,
+     "end_s": 43.0,
+     "focalX": 0.5,
+     "focalY": 0.45
+    }
+   ],
+   "identity_review": "REVIEW: people not identified; bride/groom, kinship and dates NOT confirmed",
+   "chronology_review": "REVIEW: chapter placement is an editorial guess from the contact sheets"
+  },
+  {
+   "photo_id": "27",
+   "original_filename": "8ba0a97c-113e-4733-b553-bcb210abe5a9.jpg",
+   "file_size": [
+    944,
+    2046
+   ],
+   "letterbox_detected": false,
+   "crop_box_xyxy": [
+    0,
+    0,
+    944,
+    2046
+   ],
+   "cropped_size": [
+    944,
+    2046
+   ],
+   "processed_copy": "public/local-photos/memory/27.jpg (metadata stripped, local only)",
+   "status": "used",
+   "uses": [
+    {
+     "shot": 36,
+     "layout": "gallery",
+     "chapter": "4 A Beautiful New Chapter",
+     "start_s": 218.0,
+     "end_s": 225.0,
+     "focalX": 0.5,
+     "focalY": 0.45
+    }
+   ],
+   "identity_review": "REVIEW: people not identified; bride/groom, kinship and dates NOT confirmed",
+   "chronology_review": "REVIEW: chapter placement is an editorial guess from the contact sheets"
+  },
+  {
+   "photo_id": "28",
+   "original_filename": "9219881c-54c8-4af3-b095-65684517075e.jpg",
+   "file_size": [
+    944,
+    2046
+   ],
+   "letterbox_detected": true,
+   "crop_box_xyxy": [
+    0,
+    670,
+    944,
+    1375
+   ],
+   "cropped_size": [
+    944,
+    705
+   ],
+   "processed_copy": "public/local-photos/memory/28.jpg (metadata stripped, local only)",
+   "status": "used",
+   "uses": [
+    {
+     "shot": 29,
+     "layout": "bleed",
+     "chapter": "3 Our Own Stories",
+     "start_s": 169.0,
+     "end_s": 178.0,
+     "focalX": 0.45,
+     "focalY": 0.6
+    }
+   ],
+   "identity_review": "REVIEW: people not identified; bride/groom, kinship and dates NOT confirmed",
+   "chronology_review": "REVIEW: chapter placement is an editorial guess from the contact sheets"
+  },
+  {
+   "photo_id": "29",
+   "original_filename": "96ec6717-11be-47db-8e2b-80d7d8d26421.jpg",
+   "file_size": [
+    1536,
+    2048
+   ],
+   "letterbox_detected": false,
+   "crop_box_xyxy": [
+    0,
+    0,
+    1536,
+    2048
+   ],
+   "cropped_size": [
+    1536,
+    2048
+   ],
+   "processed_copy": "public/local-photos/memory/29.jpg (metadata stripped, local only)",
+   "status": "used",
+   "uses": [
+    {
+     "shot": 31,
+     "layout": "feature",
+     "chapter": "4 A Beautiful New Chapter",
+     "start_s": 183.0,
+     "end_s": 190.0,
+     "focalX": 0.5,
+     "focalY": 0.45
+    }
+   ],
+   "identity_review": "REVIEW: people not identified; bride/groom, kinship and dates NOT confirmed",
+   "chronology_review": "REVIEW: chapter placement is an editorial guess from the contact sheets"
+  },
+  {
+   "photo_id": "30",
+   "original_filename": "b2c8f8f9-a747-4a3b-a692-0e0e74c31b9e.jpg",
+   "file_size": [
+    2048,
+    1536
+   ],
+   "letterbox_detected": false,
+   "crop_box_xyxy": [
+    0,
+    0,
+    2048,
+    1536
+   ],
+   "cropped_size": [
+    2048,
+    1536
+   ],
+   "processed_copy": "public/local-photos/memory/30.jpg (metadata stripped, local only)",
+   "status": "used",
+   "uses": [
+    {
+     "shot": 21,
+     "layout": "gallery",
+     "chapter": "2 The People in Our Lives",
+     "start_s": 113.5,
+     "end_s": 120.0,
+     "focalX": 0.5,
+     "focalY": 0.45
+    }
+   ],
+   "identity_review": "REVIEW: people not identified; bride/groom, kinship and dates NOT confirmed",
+   "chronology_review": "REVIEW: chapter placement is an editorial guess from the contact sheets"
+  },
+  {
+   "photo_id": "31",
+   "original_filename": "b39bc4c9-1815-4cc6-a03d-c92178477be5.jpg",
+   "file_size": [
+    944,
+    2046
+   ],
+   "letterbox_detected": true,
+   "crop_box_xyxy": [
+    0,
+    669,
+    944,
+    1377
+   ],
+   "cropped_size": [
+    944,
+    708
+   ],
+   "processed_copy": "public/local-photos/memory/31.jpg (metadata stripped, local only)",
+   "status": "used",
+   "uses": [
+    {
+     "shot": 28,
+     "layout": "feature",
+     "chapter": "3 Our Own Stories",
+     "start_s": 161.0,
+     "end_s": 169.0,
+     "focalX": 0.5,
+     "focalY": 0.6
+    }
+   ],
+   "identity_review": "REVIEW: people not identified; bride/groom, kinship and dates NOT confirmed",
+   "chronology_review": "REVIEW: chapter placement is an editorial guess from the contact sheets"
+  },
+  {
+   "photo_id": "32",
+   "letterbox_detected": true,
+   "status": "EXCLUDED - removed at the couple's request (2026-11-07)",
+   "uses": [],
+   "identity_review": "REVIEW: people not identified; bride/groom, kinship and dates NOT confirmed",
+   "chronology_review": "REVIEW: chapter placement is an editorial guess from the contact sheets"
+  },
+  {
+   "photo_id": "33",
+   "original_filename": "c100d0ba-6ba6-4cf0-a24b-c31687c239bb.jpg",
+   "file_size": [
+    944,
+    2046
+   ],
+   "letterbox_detected": true,
+   "crop_box_xyxy": [
+    0,
+    553,
+    944,
+    1494
+   ],
+   "cropped_size": [
+    944,
+    941
+   ],
+   "processed_copy": "public/local-photos/memory/33.jpg (metadata stripped, local only)",
+   "status": "used",
+   "uses": [
+    {
+     "shot": 24,
+     "layout": "bleed",
+     "chapter": "3 Our Own Stories",
+     "start_s": 132.5,
+     "end_s": 140.0,
+     "focalX": 0.45,
+     "focalY": 0.55
+    }
+   ],
+   "identity_review": "REVIEW: people not identified; bride/groom, kinship and dates NOT confirmed",
+   "chronology_review": "REVIEW: chapter placement is an editorial guess from the contact sheets"
+  },
+  {
+   "photo_id": "34",
+   "original_filename": "c93cc4e3-1e45-4ba6-ab49-da7db9a099b5.jpg",
+   "file_size": [
+    944,
+    2046
+   ],
+   "letterbox_detected": true,
+   "crop_box_xyxy": [
+    0,
+    671,
+    944,
+    1375
+   ],
+   "cropped_size": [
+    944,
+    704
+   ],
+   "processed_copy": "public/local-photos/memory/34.jpg (metadata stripped, local only)",
+   "status": "used",
+   "uses": [
+    {
+     "shot": 18,
+     "layout": "gallery",
+     "chapter": "2 The People in Our Lives",
+     "start_s": 95.0,
+     "end_s": 101.0,
+     "focalX": 0.5,
+     "focalY": 0.45
+    }
+   ],
+   "identity_review": "REVIEW: people not identified; bride/groom, kinship and dates NOT confirmed",
+   "chronology_review": "REVIEW: chapter placement is an editorial guess from the contact sheets"
+  },
+  {
+   "photo_id": "35",
+   "original_filename": "caf9d3cb-e603-4c52-a3ef-1ef4ec48afa7.jpg",
+   "file_size": [
+    944,
+    2046
+   ],
+   "letterbox_detected": true,
+   "crop_box_xyxy": [
+    0,
+    671,
+    944,
+    1375
+   ],
+   "cropped_size": [
+    944,
+    704
+   ],
+   "processed_copy": "public/local-photos/memory/35.jpg (metadata stripped, local only)",
+   "status": "used",
+   "uses": [
+    {
+     "shot": 18,
+     "layout": "gallery",
+     "chapter": "2 The People in Our Lives",
+     "start_s": 95.0,
+     "end_s": 101.0,
+     "focalX": 0.5,
+     "focalY": 0.45
+    }
+   ],
+   "identity_review": "REVIEW: people not identified; bride/groom, kinship and dates NOT confirmed",
+   "chronology_review": "REVIEW: chapter placement is an editorial guess from the contact sheets"
+  },
+  {
+   "photo_id": "36",
+   "original_filename": "d105faba-56e7-4485-8dea-04b643f7a7cc.jpg",
+   "file_size": [
+    944,
+    2046
+   ],
+   "letterbox_detected": true,
+   "crop_box_xyxy": [
+    0,
+    671,
+    944,
+    1375
+   ],
+   "cropped_size": [
+    944,
+    704
+   ],
+   "processed_copy": "public/local-photos/memory/36.jpg (metadata stripped, local only)",
+   "status": "used",
+   "uses": [
+    {
+     "shot": 9,
+     "layout": "feature",
+     "chapter": "1 The Beginning",
+     "start_s": 43.0,
+     "end_s": 48.5,
+     "focalX": 0.5,
+     "focalY": 0.45
+    }
+   ],
+   "identity_review": "REVIEW: people not identified; bride/groom, kinship and dates NOT confirmed",
+   "chronology_review": "REVIEW: chapter placement is an editorial guess from the contact sheets"
+  },
+  {
+   "photo_id": "37",
+   "original_filename": "d6724c7e-56ce-49e7-bd9e-1c86b78a3798.jpg",
+   "file_size": [
+    944,
+    2046
+   ],
+   "letterbox_detected": false,
+   "crop_box_xyxy": [
+    0,
+    0,
+    944,
+    2046
+   ],
+   "cropped_size": [
+    944,
+    1924
+   ],
+   "processed_copy": "public/local-photos/memory/37.jpg (metadata stripped, local only)",
+   "status": "used",
+   "uses": [
+    {
+     "shot": 36,
+     "layout": "gallery",
+     "chapter": "4 A Beautiful New Chapter",
+     "start_s": 218.0,
+     "end_s": 225.0,
+     "focalX": 0.5,
+     "focalY": 0.45
+    }
+   ],
+   "identity_review": "REVIEW: people not identified; bride/groom, kinship and dates NOT confirmed",
+   "chronology_review": "REVIEW: chapter placement is an editorial guess from the contact sheets"
+  },
+  {
+   "photo_id": "38",
+   "original_filename": "d715b029-6551-4eac-abbb-f5c632e10575.jpg",
+   "file_size": [
+    944,
+    2046
+   ],
+   "letterbox_detected": true,
+   "crop_box_xyxy": [
+    0,
+    395,
+    944,
+    1651
+   ],
+   "cropped_size": [
+    868,
+    917
+   ],
+   "processed_copy": "public/local-photos/memory/38.jpg (metadata stripped, local only)",
+   "status": "used",
+   "uses": [
+    {
+     "shot": 4,
+     "layout": "feature",
+     "chapter": "1 The Beginning",
+     "start_s": 16.5,
+     "end_s": 21.5,
+     "focalX": 0.5,
+     "focalY": 0.6
+    }
+   ],
+   "identity_review": "REVIEW: people not identified; bride/groom, kinship and dates NOT confirmed",
+   "chronology_review": "REVIEW: chapter placement is an editorial guess from the contact sheets"
+  },
+  {
+   "photo_id": "39",
+   "original_filename": "e1fd3952-01fd-4080-963a-8d26fd06a155.jpg",
+   "file_size": [
+    944,
+    2046
+   ],
+   "letterbox_detected": true,
+   "crop_box_xyxy": [
+    0,
+    671,
+    944,
+    1375
+   ],
+   "cropped_size": [
+    944,
+    704
+   ],
+   "processed_copy": "public/local-photos/memory/39.jpg (metadata stripped, local only)",
+   "status": "used",
+   "uses": [
+    {
+     "shot": 16,
+     "layout": "gallery",
+     "chapter": "2 The People in Our Lives",
+     "start_s": 83.0,
+     "end_s": 89.0,
+     "focalX": 0.5,
+     "focalY": 0.45
+    }
+   ],
+   "identity_review": "REVIEW: people not identified; bride/groom, kinship and dates NOT confirmed",
+   "chronology_review": "REVIEW: chapter placement is an editorial guess from the contact sheets"
+  },
+  {
+   "photo_id": "40",
+   "original_filename": "e2c09c15-9715-4648-8409-2a60c5c1a264.jpg",
+   "file_size": [
+    944,
+    2046
+   ],
+   "letterbox_detected": true,
+   "crop_box_xyxy": [
+    0,
+    396,
+    944,
+    1650
+   ],
+   "cropped_size": [
+    944,
+    1254
+   ],
+   "processed_copy": "public/local-photos/memory/40.jpg (metadata stripped, local only)",
+   "status": "used",
+   "uses": [
+    {
+     "shot": 13,
+     "layout": "gallery",
+     "chapter": "2 The People in Our Lives",
+     "start_s": 65.0,
+     "end_s": 71.0,
+     "focalX": 0.5,
+     "focalY": 0.45
+    }
+   ],
+   "identity_review": "REVIEW: people not identified; bride/groom, kinship and dates NOT confirmed",
+   "chronology_review": "REVIEW: chapter placement is an editorial guess from the contact sheets"
+  },
+  {
+   "photo_id": "41",
+   "original_filename": "e66b59f0-c0b9-4a00-9cb2-3ffc89400f02.jpg",
+   "file_size": [
+    944,
+    2046
+   ],
+   "letterbox_detected": true,
+   "crop_box_xyxy": [
+    0,
+    671,
+    944,
+    1375
+   ],
+   "cropped_size": [
+    944,
+    704
+   ],
+   "processed_copy": "public/local-photos/memory/41.jpg (metadata stripped, local only)",
+   "status": "used",
+   "uses": [
+    {
+     "shot": 19,
+     "layout": "gallery",
+     "chapter": "2 The People in Our Lives",
+     "start_s": 101.0,
+     "end_s": 107.0,
+     "focalX": 0.5,
+     "focalY": 0.45
+    }
+   ],
+   "identity_review": "REVIEW: people not identified; bride/groom, kinship and dates NOT confirmed",
+   "chronology_review": "REVIEW: chapter placement is an editorial guess from the contact sheets"
+  },
+  {
+   "photo_id": "42",
+   "original_filename": "eb0ed2e4-04af-4a43-b31c-5e493dc2e7e1.jpg",
+   "file_size": [
+    944,
+    2046
+   ],
+   "letterbox_detected": true,
+   "crop_box_xyxy": [
+    0,
+    395,
+    944,
+    1650
+   ],
+   "cropped_size": [
+    944,
+    1255
+   ],
+   "processed_copy": "public/local-photos/memory/42.jpg (metadata stripped, local only)",
+   "status": "used",
+   "uses": [
+    {
+     "shot": 25,
+     "layout": "feature",
+     "chapter": "3 Our Own Stories",
+     "start_s": 140.0,
+     "end_s": 147.0,
+     "focalX": 0.5,
+     "focalY": 0.45
+    }
+   ],
+   "identity_review": "REVIEW: people not identified; bride/groom, kinship and dates NOT confirmed",
+   "chronology_review": "REVIEW: chapter placement is an editorial guess from the contact sheets"
+  },
+  {
+   "photo_id": "43",
+   "original_filename": "f2dd2a02-4265-4daa-9b7b-12d038a273c7.jpg",
+   "file_size": [
+    944,
+    2046
+   ],
+   "letterbox_detected": true,
+   "crop_box_xyxy": [
+    0,
+    671,
+    944,
+    1375
+   ],
+   "cropped_size": [
+    944,
+    704
+   ],
+   "processed_copy": "public/local-photos/memory/43.jpg (metadata stripped, local only)",
+   "status": "used",
+   "uses": [
+    {
+     "shot": 22,
+     "layout": "gallery",
+     "chapter": "2 The People in Our Lives",
+     "start_s": 120.0,
+     "end_s": 126.5,
+     "focalX": 0.5,
+     "focalY": 0.45
+    }
+   ],
+   "identity_review": "REVIEW: people not identified; bride/groom, kinship and dates NOT confirmed",
+   "chronology_review": "REVIEW: chapter placement is an editorial guess from the contact sheets"
+  },
+  {
+   "photo_id": "44",
+   "original_filename": "f3190efb-eb5c-4729-aa55-548e0610365a.jpg",
+   "file_size": [
+    2048,
+    946
+   ],
+   "letterbox_detected": true,
+   "crop_box_xyxy": [
+    390,
+    0,
+    1654,
+    946
+   ],
+   "cropped_size": [
+    1264,
+    946
+   ],
+   "processed_copy": "public/local-photos/memory/44.jpg (metadata stripped, local only)",
+   "status": "used",
+   "uses": [
+    {
+     "shot": 3,
+     "layout": "feature",
+     "chapter": "1 The Beginning",
+     "start_s": 10.5,
+     "end_s": 16.5,
+     "focalX": 0.5,
+     "focalY": 0.4
+    }
+   ],
+   "identity_review": "REVIEW: people not identified; bride/groom, kinship and dates NOT confirmed",
+   "chronology_review": "REVIEW: chapter placement is an editorial guess from the contact sheets"
+  },
+  {
+   "photo_id": "45",
+   "original_filename": "fbec4cef-aeed-4856-a982-2bbd7752762b.jpg",
+   "file_size": [
+    944,
+    2046
+   ],
+   "letterbox_detected": true,
+   "crop_box_xyxy": [
+    0,
+    671,
+    944,
+    1375
+   ],
+   "cropped_size": [
+    944,
+    704
+   ],
+   "processed_copy": "public/local-photos/memory/45.jpg (metadata stripped, local only)",
+   "status": "used",
+   "uses": [
+    {
+     "shot": 5,
+     "layout": "feature",
+     "chapter": "1 The Beginning",
+     "start_s": 21.5,
+     "end_s": 26.5,
+     "focalX": 0.5,
+     "focalY": 0.45
+    }
+   ],
+   "identity_review": "REVIEW: people not identified; bride/groom, kinship and dates NOT confirmed",
+   "chronology_review": "REVIEW: chapter placement is an editorial guess from the contact sheets"
+  }
+ ],
+ "shots": [
+  {
+   "n": 1,
+   "kind": "title",
+   "start_s": 0.0,
+   "end_s": 6.5,
+   "chapter": null,
+   "title": "Every story has a beginning",
+   "photos": []
+  },
+  {
+   "n": 2,
+   "kind": "title",
+   "start_s": 6.5,
+   "end_s": 10.5,
+   "chapter": "I",
+   "title": "The Beginning",
+   "photos": []
+  },
+  {
+   "n": 3,
+   "kind": "feature",
+   "start_s": 10.5,
+   "end_s": 16.5,
+   "chapter": "I",
+   "title": null,
+   "photos": [
+    "44"
+   ]
+  },
+  {
+   "n": 4,
+   "kind": "feature",
+   "start_s": 16.5,
+   "end_s": 21.5,
+   "chapter": "I",
+   "title": null,
+   "photos": [
+    "38"
+   ]
+  },
+  {
+   "n": 5,
+   "kind": "feature",
+   "start_s": 21.5,
+   "end_s": 26.5,
+   "chapter": "I",
+   "title": null,
+   "photos": [
+    "45"
+   ]
+  },
+  {
+   "n": 6,
+   "kind": "feature",
+   "start_s": 26.5,
+   "end_s": 32.0,
+   "chapter": "I",
+   "title": null,
+   "photos": [
+    "12"
+   ]
+  },
+  {
+   "n": 7,
+   "kind": "feature",
+   "start_s": 32.0,
+   "end_s": 37.5,
+   "chapter": "I",
+   "title": null,
+   "photos": [
+    "10"
+   ]
+  },
+  {
+   "n": 8,
+   "kind": "feature",
+   "start_s": 37.5,
+   "end_s": 43.0,
+   "chapter": "I",
+   "title": null,
+   "photos": [
+    "26"
+   ]
+  },
+  {
+   "n": 9,
+   "kind": "feature",
+   "start_s": 43.0,
+   "end_s": 48.5,
+   "chapter": "I",
+   "title": null,
+   "photos": [
+    "36"
+   ]
+  },
+  {
+   "n": 10,
+   "kind": "gallery",
+   "start_s": 48.5,
+   "end_s": 55.0,
+   "chapter": "I",
+   "title": null,
+   "photos": [
+    "19",
+    "06"
+   ]
+  },
+  {
+   "n": 11,
+   "kind": "title",
+   "start_s": 55.0,
+   "end_s": 59.0,
+   "chapter": "II",
+   "title": "The People in Our Lives",
+   "photos": []
+  },
+  {
+   "n": 12,
+   "kind": "feature",
+   "start_s": 59.0,
+   "end_s": 65.0,
+   "chapter": "II",
+   "title": null,
+   "photos": [
+    "11"
+   ]
+  },
+  {
+   "n": 13,
+   "kind": "gallery",
+   "start_s": 65.0,
+   "end_s": 71.0,
+   "chapter": "II",
+   "title": null,
+   "photos": [
+    "05",
+    "40"
+   ]
+  },
+  {
+   "n": 14,
+   "kind": "gallery",
+   "start_s": 71.0,
+   "end_s": 77.0,
+   "chapter": "II",
+   "title": null,
+   "photos": [
+    "14",
+    "25"
+   ]
+  },
+  {
+   "n": 15,
+   "kind": "feature",
+   "start_s": 77.0,
+   "end_s": 83.0,
+   "chapter": "II",
+   "title": null,
+   "photos": [
+    "04"
+   ]
+  },
+  {
+   "n": 16,
+   "kind": "gallery",
+   "start_s": 83.0,
+   "end_s": 89.0,
+   "chapter": "II",
+   "title": null,
+   "photos": [
+    "01",
+    "39"
+   ]
+  },
+  {
+   "n": 17,
+   "kind": "gallery",
+   "start_s": 89.0,
+   "end_s": 95.0,
+   "chapter": "II",
+   "title": null,
+   "photos": [
+    "09",
+    "24"
+   ]
+  },
+  {
+   "n": 18,
+   "kind": "gallery",
+   "start_s": 95.0,
+   "end_s": 101.0,
+   "chapter": "II",
+   "title": null,
+   "photos": [
+    "34",
+    "35"
+   ]
+  },
+  {
+   "n": 19,
+   "kind": "gallery",
+   "start_s": 101.0,
+   "end_s": 107.0,
+   "chapter": "II",
+   "title": null,
+   "photos": [
+    "15",
+    "41"
+   ]
+  },
+  {
+   "n": 20,
+   "kind": "feature",
+   "start_s": 107.0,
+   "end_s": 113.5,
+   "chapter": "II",
+   "title": null,
+   "photos": [
+    "07"
+   ]
+  },
+  {
+   "n": 21,
+   "kind": "gallery",
+   "start_s": 113.5,
+   "end_s": 120.0,
+   "chapter": "II",
+   "title": null,
+   "photos": [
+    "30",
+    "21"
+   ]
+  },
+  {
+   "n": 22,
+   "kind": "gallery",
+   "start_s": 120.0,
+   "end_s": 126.5,
+   "chapter": "II",
+   "title": null,
+   "photos": [
+    "43",
+    "17"
+   ]
+  },
+  {
+   "n": 23,
+   "kind": "title",
+   "start_s": 126.5,
+   "end_s": 132.5,
+   "chapter": "III",
+   "title": "Our Own Stories",
+   "photos": []
+  },
+  {
+   "n": 24,
+   "kind": "bleed",
+   "start_s": 132.5,
+   "end_s": 140.0,
+   "chapter": "III",
+   "title": null,
+   "photos": [
+    "33"
+   ]
+  },
+  {
+   "n": 25,
+   "kind": "feature",
+   "start_s": 140.0,
+   "end_s": 147.0,
+   "chapter": "III",
+   "title": null,
+   "photos": [
+    "42"
+   ]
+  },
+  {
+   "n": 26,
+   "kind": "feature",
+   "start_s": 147.0,
+   "end_s": 154.0,
+   "chapter": "III",
+   "title": null,
+   "photos": [
+    "20"
+   ]
+  },
+  {
+   "n": 27,
+   "kind": "gallery",
+   "start_s": 154.0,
+   "end_s": 161.0,
+   "chapter": "III",
+   "title": null,
+   "photos": [
+    "02",
+    "16"
+   ]
+  },
+  {
+   "n": 28,
+   "kind": "feature",
+   "start_s": 161.0,
+   "end_s": 169.0,
+   "chapter": "III",
+   "title": null,
+   "photos": [
+    "31"
+   ]
+  },
+  {
+   "n": 29,
+   "kind": "bleed",
+   "start_s": 169.0,
+   "end_s": 178.0,
+   "chapter": "III",
+   "title": null,
+   "photos": [
+    "28"
+   ]
+  },
+  {
+   "n": 30,
+   "kind": "title",
+   "start_s": 178.0,
+   "end_s": 183.0,
+   "chapter": "IV",
+   "title": "A Beautiful New Chapter",
+   "photos": []
+  },
+  {
+   "n": 31,
+   "kind": "feature",
+   "start_s": 183.0,
+   "end_s": 190.0,
+   "chapter": "IV",
+   "title": null,
+   "photos": [
+    "29"
+   ]
+  },
+  {
+   "n": 32,
+   "kind": "gallery",
+   "start_s": 190.0,
+   "end_s": 197.0,
+   "chapter": "IV",
+   "title": null,
+   "photos": [
+    "18",
+    "23"
+   ]
+  },
+  {
+   "n": 33,
+   "kind": "feature",
+   "start_s": 197.0,
+   "end_s": 204.0,
+   "chapter": "IV",
+   "title": null,
+   "photos": [
+    "08"
+   ]
+  },
+  {
+   "n": 34,
+   "kind": "feature",
+   "start_s": 204.0,
+   "end_s": 211.0,
+   "chapter": "IV",
+   "title": null,
+   "photos": [
+    "22"
+   ]
+  },
+  {
+   "n": 35,
+   "kind": "feature",
+   "start_s": 211.0,
+   "end_s": 218.0,
+   "chapter": "IV",
+   "title": null,
+   "photos": [
+    "03"
+   ]
+  },
+  {
+   "n": 36,
+   "kind": "gallery",
+   "start_s": 218.0,
+   "end_s": 225.0,
+   "chapter": "IV",
+   "title": null,
+   "photos": [
+    "27",
+    "37"
+   ]
+  },
+  {
+   "n": 37,
+   "kind": "feature",
+   "start_s": 225.0,
+   "end_s": 233.0,
+   "chapter": "IV",
+   "title": null,
+   "photos": [
+    "13"
+   ]
+  },
+  {
+   "n": 38,
+   "kind": "finale",
+   "start_s": 233.0,
+   "end_s": 254.0,
+   "chapter": null,
+   "title": null,
+   "photos": [
+    "13"
+   ]
+  }
+ ]
+}

@@ -16,3 +16,6 @@ photos-inbox/*
 !photos-inbox/README.md
 out/tmp/
 out/verification.json
+
+# LOCAL-ONLY private wedding photos for WeddingMemoryFilm (never commit)
+public/local-photos/
