@@ -69,7 +69,7 @@ function Ensure-File($name, $expected, [bool]$canDownload) {
     if ((Hash $target) -eq $expected) { Say "  OK (copied offline)   $name" 'Green'; return $true }
     Say "  checksum mismatch on offline copy of $name" 'Yellow'
   }
-  if (-not $canDownload) { Say "  --  not available     $name  (LOCAL ONLY: bring it on USB and use -OfflineSource)" 'Yellow'; return $false }
+  if (-not $canDownload) { Say "  --  skipped (optional) $name  (local-only extra, not needed for playback)"; return $false }
   for ($i = 1; $i -le 2; $i++) {
     try {
       Say "  downloading ...        $name"
@@ -136,7 +136,7 @@ Say "`n[1/4] Published files (GitHub release) - SHA-256 verified" 'Cyan'
 $allOk = $true
 foreach ($k in $Public.Keys) { if (-not (Ensure-File $k $Public[$k] $true)) { $allOk = $false } }
 
-Say "`n[2/4] LOCAL-ONLY music versions (USB / -OfflineSource)" 'Cyan'
+Say "`n[2/4] Optional local-only extras (USB / -OfflineSource; not needed for playback)" 'Cyan'
 $musicOk = $true
 foreach ($k in $LocalOnly.Keys) { if (-not (Ensure-File $k $LocalOnly[$k] $false)) { $musicOk = $false } }
 
@@ -159,7 +159,8 @@ if ($BackupTo) {
 $vlc = Find-VLC
 Say "`n=== RESULT ===" 'Cyan'
 if ($allOk) { Say "PLAYBACK FILES READY: YES" 'Green' } else { Say "PLAYBACK FILES READY: NO - see FAILED lines above" 'Red' }
-Say $(if ($musicOk) { "Memory film with music: present ($film)" } else { "Memory film with music: NOT present -> 3_MEMORY_FILM.cmd plays the SILENT version. Bring LOCAL_ONLY_MUSIC on USB and re-run with -OfflineSource." }) $(if ($musicOk) { 'Green' } else { 'Yellow' })
+$hasFilm = Test-Path (Join-Path $Destination 'Galkhuu_Akane_FINAL_154_132_1080p.mp4')
+Say $(if ($hasFilm) { "Memory film with music: present ($film)" } else { "Memory film with music: NOT present -> 3_MEMORY_FILM.cmd plays the SILENT version. Re-run with internet, or with -OfflineSource from the USB copy." }) $(if ($hasFilm) { 'Green' } else { 'Yellow' })
 Say $(if ($vlc) { "VLC: $vlc" } else { "VLC NOT FOUND - install VLC (videolan.org) before the event." }) $(if ($vlc) { 'Green' } else { 'Red' })
 Say @"
 
