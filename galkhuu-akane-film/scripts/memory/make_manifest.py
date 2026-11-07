@@ -21,7 +21,7 @@ for pid in sorted(c):
     photos.append(dict(photo_id=pid, original_filename=o["original_filename"], file_size=[d["file_w"], d["file_h"]],
         letterbox_detected=d["letterboxed"], crop_box_xyxy=d["crop"], cropped_size=[d["w"], d["h"]],
         processed_copy=f"public/local-photos/memory/{pid}.jpg (metadata stripped, local only)",
-        status="EXCLUDED - removed at the couple's request (2026-11-07)" if pid == "32" else ("used" if uses else "UNUSED"),
+        status="EXCLUDED - removed at the couple's request (2026-11-07)" if pid in ("32", "26") else ("used" if uses else "UNUSED"),
         uses=uses, identity_review="REVIEW: people not identified; bride/groom, kinship and dates NOT confirmed",
         chronology_review="REVIEW: chapter placement is an editorial guess from the contact sheets"))
 json.dump(dict(film="WeddingMemoryFilm", duration_s=TOTAL, fps=30, photos=photos,
@@ -45,7 +45,7 @@ for i, s in enumerate(shots):
     what = s["title"] or ", ".join(f[0] for f in s["ids"])
     md.append(f"| {i+1} | {fmt(s['at'])}–{fmt(s['end'])} | {('Opening' if s['chapter'] is None and s['kind']=='title' else chap_names[s['chapter']] if s['kind']!='finale' else 'Finale')} | {s['kind']} | {what} | {music(s['at'])} |")
 md += ["", "Finale text: **GALKHUU & AKANE** / **7 NOVEMBER 2026** — appears ~0.5 s after 3:53 and holds to the last frame (no fade to black).",
-       "", "Photo 32 is excluded at the couple's request. People in the photos are not identified; chapter placement is an editorial guess (see photo_manifest.json review markers)."]
+       "", "Photos 32 and 26 are excluded at the couple's request. People in the photos are not identified; chapter placement is an editorial guess (see photo_manifest.json review markers)."]
 open(f"{out_dir}/STORYBOARD.md", "w", encoding="utf8").write("\n".join(md))
 used = [p for p in photos if p["status"] == "used"]
 print("shots", len(shots), "used photos", len(used), "unused", [p["photo_id"] for p in photos if p["status"] == "UNUSED"])

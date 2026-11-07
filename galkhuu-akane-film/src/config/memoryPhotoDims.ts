@@ -1,4 +1,4 @@
-// Generated from local crop analysis (no image data). id -> cropped pixel size. Photo 32 excluded by request.
+// Generated from local crop analysis (no image data). id -> cropped pixel size. Photos 32 and 26 excluded by request.
 export const MEMORY_PHOTO_DIMS: Record<string, [number, number]> = {
   "01": [944, 1416],
   "02": [944, 705],
@@ -25,7 +25,6 @@ export const MEMORY_PHOTO_DIMS: Record<string, [number, number]> = {
   "23": [944, 704],
   "24": [944, 704],
   "25": [1258, 946],
-  "26": [944, 704],
   "27": [944, 2046],
   "28": [944, 705],
   "29": [1536, 2048],

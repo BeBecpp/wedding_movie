@@ -8,9 +8,9 @@
 07,used,2 The People in Our Lives,feature,107.0,113.5,"[0, 671, 944, 1376]","[944, 705]",UNCONFIRMED
 08,used,4 A Beautiful New Chapter,feature,197.0,204.0,"[0, 671, 944, 1375]","[944, 704]",UNCONFIRMED
 09,used,2 The People in Our Lives,gallery,89.0,95.0,"[0, 671, 944, 1375]","[944, 704]",UNCONFIRMED
-10,used,1 The Beginning,feature,32.0,37.5,"[390, 0, 1654, 946]","[1264, 946]",UNCONFIRMED
+10,used,1 The Beginning,feature,35.5,42.0,"[390, 0, 1654, 946]","[1264, 946]",UNCONFIRMED
 11,used,2 The People in Our Lives,feature,59.0,65.0,"[370, 0, 1677, 946]","[1307, 946]",UNCONFIRMED
-12,used,1 The Beginning,feature,26.5,32.0,"[390, 0, 1654, 946]","[1264, 946]",UNCONFIRMED
+12,used,1 The Beginning,feature,29.5,35.5,"[390, 0, 1654, 946]","[1264, 946]",UNCONFIRMED
 13,used (+1 repeat),4 A Beautiful New Chapter,feature,225.0,233.0,"[0, 396, 944, 1650]","[944, 1254]",UNCONFIRMED
 14,used,2 The People in Our Lives,gallery,71.0,77.0,"[395, 0, 1653, 946]","[1258, 946]",UNCONFIRMED
 15,used,2 The People in Our Lives,gallery,101.0,107.0,"[0, 671, 944, 1375]","[944, 704]",UNCONFIRMED
@@ -24,7 +24,7 @@
 23,used,4 A Beautiful New Chapter,gallery,190.0,197.0,"[0, 671, 944, 1375]","[944, 704]",UNCONFIRMED
 24,used,2 The People in Our Lives,gallery,89.0,95.0,"[0, 671, 944, 1375]","[944, 704]",UNCONFIRMED
 25,used,2 The People in Our Lives,gallery,71.0,77.0,"[395, 0, 1653, 946]","[1258, 946]",UNCONFIRMED
-26,used,1 The Beginning,feature,37.5,43.0,"[0, 671, 944, 1375]","[944, 704]",UNCONFIRMED
+26,EXCLUDED - removed at the couple's request (2026-11-07),,,,,"[0, 671, 944, 1375]","[944, 704]",UNCONFIRMED
 27,used,4 A Beautiful New Chapter,gallery,218.0,225.0,"[0, 0, 944, 2046]","[944, 2046]",UNCONFIRMED
 28,used,3 Our Own Stories,bleed,169.0,178.0,"[0, 670, 944, 1375]","[944, 705]",UNCONFIRMED
 29,used,4 A Beautiful New Chapter,feature,183.0,190.0,"[0, 0, 1536, 2048]","[1536, 2048]",UNCONFIRMED
@@ -34,13 +34,13 @@
 33,used,3 Our Own Stories,bleed,132.5,140.0,"[0, 553, 944, 1494]","[944, 941]",UNCONFIRMED
 34,used,2 The People in Our Lives,gallery,95.0,101.0,"[0, 671, 944, 1375]","[944, 704]",UNCONFIRMED
 35,used,2 The People in Our Lives,gallery,95.0,101.0,"[0, 671, 944, 1375]","[944, 704]",UNCONFIRMED
-36,used,1 The Beginning,feature,43.0,48.5,"[0, 671, 944, 1375]","[944, 704]",UNCONFIRMED
+36,used,1 The Beginning,feature,42.0,48.5,"[0, 671, 944, 1375]","[944, 704]",UNCONFIRMED
 37,used,4 A Beautiful New Chapter,gallery,218.0,225.0,"[0, 0, 944, 2046]","[944, 1924]",UNCONFIRMED
-38,used,1 The Beginning,feature,16.5,21.5,"[0, 395, 944, 1651]","[868, 917]",UNCONFIRMED
+38,used,1 The Beginning,feature,17.0,23.5,"[0, 395, 944, 1651]","[868, 917]",UNCONFIRMED
 39,used,2 The People in Our Lives,gallery,83.0,89.0,"[0, 671, 944, 1375]","[944, 704]",UNCONFIRMED
 40,used,2 The People in Our Lives,gallery,65.0,71.0,"[0, 396, 944, 1650]","[944, 1254]",UNCONFIRMED
 41,used,2 The People in Our Lives,gallery,101.0,107.0,"[0, 671, 944, 1375]","[944, 704]",UNCONFIRMED
 42,used,3 Our Own Stories,feature,140.0,147.0,"[0, 395, 944, 1650]","[944, 1255]",UNCONFIRMED
 43,used,2 The People in Our Lives,gallery,120.0,126.5,"[0, 671, 944, 1375]","[944, 704]",UNCONFIRMED
-44,used,1 The Beginning,feature,10.5,16.5,"[390, 0, 1654, 946]","[1264, 946]",UNCONFIRMED
-45,used,1 The Beginning,feature,21.5,26.5,"[0, 671, 944, 1375]","[944, 704]",UNCONFIRMED
+44,used,1 The Beginning,feature,10.5,17.0,"[390, 0, 1654, 946]","[1264, 946]",UNCONFIRMED
+45,used,1 The Beginning,feature,23.5,29.5,"[0, 671, 944, 1375]","[944, 704]",UNCONFIRMED

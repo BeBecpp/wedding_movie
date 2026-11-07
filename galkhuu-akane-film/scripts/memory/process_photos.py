@@ -6,7 +6,7 @@ os.makedirs(out_dir, exist_ok=True); os.makedirs(sheet_dir, exist_ok=True)
 extra = {"37": (0, 0.06, 1, 1), "06": (0, 0.125, 1, 0.905), "38": (0, 0.245, 0.92, 0.975)}  # 06/38: trim plastic sleeve around archival print  # drop screenshot "Crop" UI button at top-right
 thumbs = []
 for pid, d in sorted(c.items()):
-    if pid == "32":
+    if pid in ("32", "26"):
         d["excluded"] = "removed at the couple's request 2026-11-07"; continue
     im = ImageOps.exif_transpose(Image.open(os.path.join(src, pid + ".jpg"))).convert("RGB")
     im = im.crop(tuple(d["crop"]))

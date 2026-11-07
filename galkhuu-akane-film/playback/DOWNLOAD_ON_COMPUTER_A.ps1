@@ -29,12 +29,12 @@ $ReleaseBase = 'https://github.com/BeBecpp/wedding_movie/releases/download/weddi
 
 # name -> SHA-256 (published on GitHub release)
 $Public = [ordered]@{
-  'Galkhuu_Akane_44_Photos_and_Manifests.zip' = '87f6c6142aa10c26f61b71c2bfacb35e5c9b805fb07f621e507b5d6d22194d33'
+  'Galkhuu_Akane_43_Photos_and_Manifests.zip' = '24dd601dece9c51af381e8e6aed3a433c772cc4bab5cd50d0a65e2e4b69b0b27'
   'Galkhuu_Akane_Closing_Screen.png' = 'e10a61188691e0e6598bea7c65075d647b9a3565bbac80ec02bfa9513a0736b5'
   'Galkhuu_Akane_Fallback_Still.png' = 'ac37dde5bf292348b6c6ea2ed0da96bad1707b1537f088f300ec342e566be33f'
-  'Galkhuu_Akane_MemoryFilm_1080p_SILENT.mp4' = '68407fcca105810096c7e6a3f445dc306b67907fa9f4f04c3e508993d32b63d7'
+  'Galkhuu_Akane_MemoryFilm_1080p_SILENT.mp4' = 'e42f31e53ed2b6d3f479fab495b32bba395fbfbc2b003f0eee7bfa87a5dca2be'
   'Galkhuu_Akane_MemoryFilm_TitleStill.png' = '1ef6a73261d641da5840068b7740f4f5f1bb23844094107690f8ae75a3785452'
-  'Galkhuu_Akane_MemoryFilm_Zoom_720p_SILENT.mp4' = '5203225e152a700250483828c3e3bf2260f1a6e928bbdf08139ba23ad0c2c5d6'
+  'Galkhuu_Akane_MemoryFilm_Zoom_720p_SILENT.mp4' = 'e6e1aa06aa752df2c26f3e1fc7f01fc3da3ae74d31202a43b4fd66ced85c4436'
   'Galkhuu_Akane_Waiting_Loop_1080p.mp4' = '601a15d6b8693d432d16cecfdfe596cb195ac457b31c3c057b3ca1aea3093714'
   'Galkhuu_Akane_Waiting_Screen.png' = '00e7b27a5d064fcedcd27946ea1eeda2b0593cb8a38089bd63d59dd16a3a7c4a'
   'Galkhuu_Akane_Wedding_Background.png' = '8b72fff46ded073a26f78a5e30c4058cc2cfadae9fc5ec527aa8259e9a48d313'
@@ -43,9 +43,9 @@ $Public = [ordered]@{
 }
 # name -> SHA-256 (LOCAL ONLY - music versions; never published, copy from USB with -OfflineSource)
 $LocalOnly = [ordered]@{
-  'Galkhuu_Akane_FINAL_154_132_1080p.mp4' = 'f493895fad7632a28e0915ae71b32e303926f9a5e0b3bdc3ef9054144b0a7752'
+  'Galkhuu_Akane_FINAL_154_132_1080p.mp4' = '3104d67621a2ce9d88ad3c411f11a65757ac27da8b723bc20f148b974ce9857f'
   'Galkhuu_Akane_FINAL_154_132_SOUNDTRACK.m4a' = 'a9b13e7d1d9ca3782b60092f3bfc7fc13f0bf303997cce44d8436b5be6393b08'
-  'Galkhuu_Akane_FINAL_154_132_Zoom_720p.mp4' = '5638cf75790420b6808ec5a65dff6a38ce29f2728bdb923215f1c6b51ac66285'
+  'Galkhuu_Akane_FINAL_154_132_Zoom_720p.mp4' = 'f6a77db72329de54689181c768a603213bc510497f9a92a6824c8820b274e48a'
 }
 # expected media facts: name -> width, height, seconds, hasAudio
 $Media = @{

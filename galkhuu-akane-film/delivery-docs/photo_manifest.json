@@ -25,7 +25,7 @@
    "status": "used",
    "uses": [
     {
-     "shot": 16,
+     "shot": 15,
      "layout": "gallery",
      "chapter": "2 The People in Our Lives",
      "start_s": 83.0,
@@ -59,7 +59,7 @@
    "status": "used",
    "uses": [
     {
-     "shot": 27,
+     "shot": 26,
      "layout": "gallery",
      "chapter": "3 Our Own Stories",
      "start_s": 154.0,
@@ -93,7 +93,7 @@
    "status": "used",
    "uses": [
     {
-     "shot": 35,
+     "shot": 34,
      "layout": "feature",
      "chapter": "4 A Beautiful New Chapter",
      "start_s": 211.0,
@@ -127,7 +127,7 @@
    "status": "used",
    "uses": [
     {
-     "shot": 15,
+     "shot": 14,
      "layout": "feature",
      "chapter": "2 The People in Our Lives",
      "start_s": 77.0,
@@ -161,7 +161,7 @@
    "status": "used",
    "uses": [
     {
-     "shot": 13,
+     "shot": 12,
      "layout": "gallery",
      "chapter": "2 The People in Our Lives",
      "start_s": 65.0,
@@ -195,7 +195,7 @@
    "status": "used",
    "uses": [
     {
-     "shot": 10,
+     "shot": 9,
      "layout": "gallery",
      "chapter": "1 The Beginning",
      "start_s": 48.5,
@@ -229,7 +229,7 @@
    "status": "used",
    "uses": [
     {
-     "shot": 20,
+     "shot": 19,
      "layout": "feature",
      "chapter": "2 The People in Our Lives",
      "start_s": 107.0,
@@ -263,7 +263,7 @@
    "status": "used",
    "uses": [
     {
-     "shot": 33,
+     "shot": 32,
      "layout": "feature",
      "chapter": "4 A Beautiful New Chapter",
      "start_s": 197.0,
@@ -297,7 +297,7 @@
    "status": "used",
    "uses": [
     {
-     "shot": 17,
+     "shot": 16,
      "layout": "gallery",
      "chapter": "2 The People in Our Lives",
      "start_s": 89.0,
@@ -334,8 +334,8 @@
      "shot": 7,
      "layout": "feature",
      "chapter": "1 The Beginning",
-     "start_s": 32.0,
-     "end_s": 37.5,
+     "start_s": 35.5,
+     "end_s": 42.0,
      "focalX": 0.5,
      "focalY": 0.45
     }
@@ -365,7 +365,7 @@
    "status": "used",
    "uses": [
     {
-     "shot": 12,
+     "shot": 11,
      "layout": "feature",
      "chapter": "2 The People in Our Lives",
      "start_s": 59.0,
@@ -402,8 +402,8 @@
      "shot": 6,
      "layout": "feature",
      "chapter": "1 The Beginning",
-     "start_s": 26.5,
-     "end_s": 32.0,
+     "start_s": 29.5,
+     "end_s": 35.5,
      "focalX": 0.5,
      "focalY": 0.45
     }
@@ -433,7 +433,7 @@
    "status": "used",
    "uses": [
     {
-     "shot": 37,
+     "shot": 36,
      "layout": "feature",
      "chapter": "4 A Beautiful New Chapter",
      "start_s": 225.0,
@@ -442,7 +442,7 @@
      "focalY": 0.55
     },
     {
-     "shot": 38,
+     "shot": 37,
      "layout": "finale",
      "chapter": "Finale (names)",
      "start_s": 233.0,
@@ -476,7 +476,7 @@
    "status": "used",
    "uses": [
     {
-     "shot": 14,
+     "shot": 13,
      "layout": "gallery",
      "chapter": "2 The People in Our Lives",
      "start_s": 71.0,
@@ -510,7 +510,7 @@
    "status": "used",
    "uses": [
     {
-     "shot": 19,
+     "shot": 18,
      "layout": "gallery",
      "chapter": "2 The People in Our Lives",
      "start_s": 101.0,
@@ -544,7 +544,7 @@
    "status": "used",
    "uses": [
     {
-     "shot": 27,
+     "shot": 26,
      "layout": "gallery",
      "chapter": "3 Our Own Stories",
      "start_s": 154.0,
@@ -578,7 +578,7 @@
    "status": "used",
    "uses": [
     {
-     "shot": 22,
+     "shot": 21,
      "layout": "gallery",
      "chapter": "2 The People in Our Lives",
      "start_s": 120.0,
@@ -612,7 +612,7 @@
    "status": "used",
    "uses": [
     {
-     "shot": 32,
+     "shot": 31,
      "layout": "gallery",
      "chapter": "4 A Beautiful New Chapter",
      "start_s": 190.0,
@@ -646,7 +646,7 @@
    "status": "used",
    "uses": [
     {
-     "shot": 10,
+     "shot": 9,
      "layout": "gallery",
      "chapter": "1 The Beginning",
      "start_s": 48.5,
@@ -680,7 +680,7 @@
    "status": "used",
    "uses": [
     {
-     "shot": 26,
+     "shot": 25,
      "layout": "feature",
      "chapter": "3 Our Own Stories",
      "start_s": 147.0,
@@ -714,7 +714,7 @@
    "status": "used",
    "uses": [
     {
-     "shot": 21,
+     "shot": 20,
      "layout": "gallery",
      "chapter": "2 The People in Our Lives",
      "start_s": 113.5,
@@ -748,7 +748,7 @@
    "status": "used",
    "uses": [
     {
-     "shot": 34,
+     "shot": 33,
      "layout": "feature",
      "chapter": "4 A Beautiful New Chapter",
      "start_s": 204.0,
@@ -782,7 +782,7 @@
    "status": "used",
    "uses": [
     {
-     "shot": 32,
+     "shot": 31,
      "layout": "gallery",
      "chapter": "4 A Beautiful New Chapter",
      "start_s": 190.0,
@@ -816,7 +816,7 @@
    "status": "used",
    "uses": [
     {
-     "shot": 17,
+     "shot": 16,
      "layout": "gallery",
      "chapter": "2 The People in Our Lives",
      "start_s": 89.0,
@@ -850,7 +850,7 @@
    "status": "used",
    "uses": [
     {
-     "shot": 14,
+     "shot": 13,
      "layout": "gallery",
      "chapter": "2 The People in Our Lives",
      "start_s": 71.0,
@@ -864,35 +864,8 @@
   },
   {
    "photo_id": "26",
-   "original_filename": "8982195b-8260-481f-8786-b6bd39f12366.jpg",
-   "file_size": [
-    944,
-    2046
-   ],
    "letterbox_detected": true,
-   "crop_box_xyxy": [
-    0,
-    671,
-    944,
-    1375
-   ],
-   "cropped_size": [
-    944,
-    704
-   ],
-   "processed_copy": "public/local-photos/memory/26.jpg (metadata stripped, local only)",
-   "status": "used",
-   "uses": [
-    {
-     "shot": 8,
-     "layout": "feature",
-     "chapter": "1 The Beginning",
-     "start_s": 37.5,
-     "end_s": 43.0,
-     "focalX": 0.5,
-     "focalY": 0.45
-    }
-   ],
+   "status": "EXCLUDED - removed at the couple's request (2026-11-07)",
    "identity_review": "REVIEW: people not identified; bride/groom, kinship and dates NOT confirmed",
    "chronology_review": "REVIEW: chapter placement is an editorial guess from the contact sheets"
   },
@@ -918,7 +891,7 @@
    "status": "used",
    "uses": [
     {
-     "shot": 36,
+     "shot": 35,
      "layout": "gallery",
      "chapter": "4 A Beautiful New Chapter",
      "start_s": 218.0,
@@ -952,7 +925,7 @@
    "status": "used",
    "uses": [
     {
-     "shot": 29,
+     "shot": 28,
      "layout": "bleed",
      "chapter": "3 Our Own Stories",
      "start_s": 169.0,
@@ -986,7 +959,7 @@
    "status": "used",
    "uses": [
     {
-     "shot": 31,
+     "shot": 30,
      "layout": "feature",
      "chapter": "4 A Beautiful New Chapter",
      "start_s": 183.0,
@@ -1020,7 +993,7 @@
    "status": "used",
    "uses": [
     {
-     "shot": 21,
+     "shot": 20,
      "layout": "gallery",
      "chapter": "2 The People in Our Lives",
      "start_s": 113.5,
@@ -1054,7 +1027,7 @@
    "status": "used",
    "uses": [
     {
-     "shot": 28,
+     "shot": 27,
      "layout": "feature",
      "chapter": "3 Our Own Stories",
      "start_s": 161.0,
@@ -1070,7 +1043,6 @@
    "photo_id": "32",
    "letterbox_detected": true,
    "status": "EXCLUDED - removed at the couple's request (2026-11-07)",
-   "uses": [],
    "identity_review": "REVIEW: people not identified; bride/groom, kinship and dates NOT confirmed",
    "chronology_review": "REVIEW: chapter placement is an editorial guess from the contact sheets"
   },
@@ -1096,7 +1068,7 @@
    "status": "used",
    "uses": [
     {
-     "shot": 24,
+     "shot": 23,
      "layout": "bleed",
      "chapter": "3 Our Own Stories",
      "start_s": 132.5,
@@ -1130,7 +1102,7 @@
    "status": "used",
    "uses": [
     {
-     "shot": 18,
+     "shot": 17,
      "layout": "gallery",
      "chapter": "2 The People in Our Lives",
      "start_s": 95.0,
@@ -1164,7 +1136,7 @@
    "status": "used",
    "uses": [
     {
-     "shot": 18,
+     "shot": 17,
      "layout": "gallery",
      "chapter": "2 The People in Our Lives",
      "start_s": 95.0,
@@ -1198,10 +1170,10 @@
    "status": "used",
    "uses": [
     {
-     "shot": 9,
+     "shot": 8,
      "layout": "feature",
      "chapter": "1 The Beginning",
-     "start_s": 43.0,
+     "start_s": 42.0,
      "end_s": 48.5,
      "focalX": 0.5,
      "focalY": 0.45
@@ -1232,7 +1204,7 @@
    "status": "used",
    "uses": [
     {
-     "shot": 36,
+     "shot": 35,
      "layout": "gallery",
      "chapter": "4 A Beautiful New Chapter",
      "start_s": 218.0,
@@ -1269,8 +1241,8 @@
      "shot": 4,
      "layout": "feature",
      "chapter": "1 The Beginning",
-     "start_s": 16.5,
-     "end_s": 21.5,
+     "start_s": 17.0,
+     "end_s": 23.5,
      "focalX": 0.5,
      "focalY": 0.6
     }
@@ -1300,7 +1272,7 @@
    "status": "used",
    "uses": [
     {
-     "shot": 16,
+     "shot": 15,
      "layout": "gallery",
      "chapter": "2 The People in Our Lives",
      "start_s": 83.0,
@@ -1334,7 +1306,7 @@
    "status": "used",
    "uses": [
     {
-     "shot": 13,
+     "shot": 12,
      "layout": "gallery",
      "chapter": "2 The People in Our Lives",
      "start_s": 65.0,
@@ -1368,7 +1340,7 @@
    "status": "used",
    "uses": [
     {
-     "shot": 19,
+     "shot": 18,
      "layout": "gallery",
      "chapter": "2 The People in Our Lives",
      "start_s": 101.0,
@@ -1402,7 +1374,7 @@
    "status": "used",
    "uses": [
     {
-     "shot": 25,
+     "shot": 24,
      "layout": "feature",
      "chapter": "3 Our Own Stories",
      "start_s": 140.0,
@@ -1436,7 +1408,7 @@
    "status": "used",
    "uses": [
     {
-     "shot": 22,
+     "shot": 21,
      "layout": "gallery",
      "chapter": "2 The People in Our Lives",
      "start_s": 120.0,
@@ -1474,7 +1446,7 @@
      "layout": "feature",
      "chapter": "1 The Beginning",
      "start_s": 10.5,
-     "end_s": 16.5,
+     "end_s": 17.0,
      "focalX": 0.5,
      "focalY": 0.4
     }
@@ -1507,8 +1479,8 @@
      "shot": 5,
      "layout": "feature",
      "chapter": "1 The Beginning",
-     "start_s": 21.5,
-     "end_s": 26.5,
+     "start_s": 23.5,
+     "end_s": 29.5,
      "focalX": 0.5,
      "focalY": 0.45
     }
@@ -1540,7 +1512,7 @@
    "n": 3,
    "kind": "feature",
    "start_s": 10.5,
-   "end_s": 16.5,
+   "end_s": 17.0,
    "chapter": "I",
    "title": null,
    "photos": [
@@ -1550,8 +1522,8 @@
   {
    "n": 4,
    "kind": "feature",
-   "start_s": 16.5,
-   "end_s": 21.5,
+   "start_s": 17.0,
+   "end_s": 23.5,
    "chapter": "I",
    "title": null,
    "photos": [
@@ -1561,8 +1533,8 @@
   {
    "n": 5,
    "kind": "feature",
-   "start_s": 21.5,
-   "end_s": 26.5,
+   "start_s": 23.5,
+   "end_s": 29.5,
    "chapter": "I",
    "title": null,
    "photos": [
@@ -1572,8 +1544,8 @@
   {
    "n": 6,
    "kind": "feature",
-   "start_s": 26.5,
-   "end_s": 32.0,
+   "start_s": 29.5,
+   "end_s": 35.5,
    "chapter": "I",
    "title": null,
    "photos": [
@@ -1583,8 +1555,8 @@
   {
    "n": 7,
    "kind": "feature",
-   "start_s": 32.0,
-   "end_s": 37.5,
+   "start_s": 35.5,
+   "end_s": 42.0,
    "chapter": "I",
    "title": null,
    "photos": [
@@ -1594,18 +1566,7 @@
   {
    "n": 8,
    "kind": "feature",
-   "start_s": 37.5,
-   "end_s": 43.0,
-   "chapter": "I",
-   "title": null,
-   "photos": [
-    "26"
-   ]
-  },
-  {
-   "n": 9,
-   "kind": "feature",
-   "start_s": 43.0,
+   "start_s": 42.0,
    "end_s": 48.5,
    "chapter": "I",
    "title": null,
@@ -1614,7 +1575,7 @@
    ]
   },
   {
-   "n": 10,
+   "n": 9,
    "kind": "gallery",
    "start_s": 48.5,
    "end_s": 55.0,
@@ -1626,7 +1587,7 @@
    ]
   },
   {
-   "n": 11,
+   "n": 10,
    "kind": "title",
    "start_s": 55.0,
    "end_s": 59.0,
@@ -1635,7 +1596,7 @@
    "photos": []
   },
   {
-   "n": 12,
+   "n": 11,
    "kind": "feature",
    "start_s": 59.0,
    "end_s": 65.0,
@@ -1646,7 +1607,7 @@
    ]
   },
   {
-   "n": 13,
+   "n": 12,
    "kind": "gallery",
    "start_s": 65.0,
    "end_s": 71.0,
@@ -1658,7 +1619,7 @@
    ]
   },
   {
-   "n": 14,
+   "n": 13,
    "kind": "gallery",
    "start_s": 71.0,
    "end_s": 77.0,
@@ -1670,7 +1631,7 @@
    ]
   },
   {
-   "n": 15,
+   "n": 14,
    "kind": "feature",
    "start_s": 77.0,
    "end_s": 83.0,
@@ -1681,7 +1642,7 @@
    ]
   },
   {
-   "n": 16,
+   "n": 15,
    "kind": "gallery",
    "start_s": 83.0,
    "end_s": 89.0,
@@ -1693,7 +1654,7 @@
    ]
   },
   {
-   "n": 17,
+   "n": 16,
    "kind": "gallery",
    "start_s": 89.0,
    "end_s": 95.0,
@@ -1705,7 +1666,7 @@
    ]
   },
   {
-   "n": 18,
+   "n": 17,
    "kind": "gallery",
    "start_s": 95.0,
    "end_s": 101.0,
@@ -1717,7 +1678,7 @@
    ]
   },
   {
-   "n": 19,
+   "n": 18,
    "kind": "gallery",
    "start_s": 101.0,
    "end_s": 107.0,
@@ -1729,7 +1690,7 @@
    ]
   },
   {
-   "n": 20,
+   "n": 19,
    "kind": "feature",
    "start_s": 107.0,
    "end_s": 113.5,
@@ -1740,7 +1701,7 @@
    ]
   },
   {
-   "n": 21,
+   "n": 20,
    "kind": "gallery",
    "start_s": 113.5,
    "end_s": 120.0,
@@ -1752,7 +1713,7 @@
    ]
   },
   {
-   "n": 22,
+   "n": 21,
    "kind": "gallery",
    "start_s": 120.0,
    "end_s": 126.5,
@@ -1764,7 +1725,7 @@
    ]
   },
   {
-   "n": 23,
+   "n": 22,
    "kind": "title",
    "start_s": 126.5,
    "end_s": 132.5,
@@ -1773,7 +1734,7 @@
    "photos": []
   },
   {
-   "n": 24,
+   "n": 23,
    "kind": "bleed",
    "start_s": 132.5,
    "end_s": 140.0,
@@ -1784,7 +1745,7 @@
    ]
   },
   {
-   "n": 25,
+   "n": 24,
    "kind": "feature",
    "start_s": 140.0,
    "end_s": 147.0,
@@ -1795,7 +1756,7 @@
    ]
   },
   {
-   "n": 26,
+   "n": 25,
    "kind": "feature",
    "start_s": 147.0,
    "end_s": 154.0,
@@ -1806,7 +1767,7 @@
    ]
   },
   {
-   "n": 27,
+   "n": 26,
    "kind": "gallery",
    "start_s": 154.0,
    "end_s": 161.0,
@@ -1818,7 +1779,7 @@
    ]
   },
   {
-   "n": 28,
+   "n": 27,
    "kind": "feature",
    "start_s": 161.0,
    "end_s": 169.0,
@@ -1829,7 +1790,7 @@
    ]
   },
   {
-   "n": 29,
+   "n": 28,
    "kind": "bleed",
    "start_s": 169.0,
    "end_s": 178.0,
@@ -1840,7 +1801,7 @@
    ]
   },
   {
-   "n": 30,
+   "n": 29,
    "kind": "title",
    "start_s": 178.0,
    "end_s": 183.0,
@@ -1849,7 +1810,7 @@
    "photos": []
   },
   {
-   "n": 31,
+   "n": 30,
    "kind": "feature",
    "start_s": 183.0,
    "end_s": 190.0,
@@ -1860,7 +1821,7 @@
    ]
   },
   {
-   "n": 32,
+   "n": 31,
    "kind": "gallery",
    "start_s": 190.0,
    "end_s": 197.0,
@@ -1872,7 +1833,7 @@
    ]
   },
   {
-   "n": 33,
+   "n": 32,
    "kind": "feature",
    "start_s": 197.0,
    "end_s": 204.0,
@@ -1883,7 +1844,7 @@
    ]
   },
   {
-   "n": 34,
+   "n": 33,
    "kind": "feature",
    "start_s": 204.0,
    "end_s": 211.0,
@@ -1894,7 +1855,7 @@
    ]
   },
   {
-   "n": 35,
+   "n": 34,
    "kind": "feature",
    "start_s": 211.0,
    "end_s": 218.0,
@@ -1905,7 +1866,7 @@
    ]
   },
   {
-   "n": 36,
+   "n": 35,
    "kind": "gallery",
    "start_s": 218.0,
    "end_s": 225.0,
@@ -1917,7 +1878,7 @@
    ]
   },
   {
-   "n": 37,
+   "n": 36,
    "kind": "feature",
    "start_s": 225.0,
    "end_s": 233.0,
@@ -1928,7 +1889,7 @@
    ]
   },
   {
-   "n": 38,
+   "n": 37,
    "kind": "finale",
    "start_s": 233.0,
    "end_s": 254.0,

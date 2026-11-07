@@ -6,7 +6,7 @@
  * never committed). Chronology and chapter placement are an EDITORIAL guess
  * from the contact sheets — identities, kinship and dates are NOT confirmed.
  *
- * EXCLUDED by the couple's request (2026-11-07): photo 32 — never use it.
+ * EXCLUDED by the couple's request (2026-11-07): photos 32 and 26 — never use them.
  *
  * Times are in seconds on the film timeline (30 fps). Each shot runs from
  * `at` to the next shot's `at`. Transitions are centred on the cut.
@@ -39,19 +39,18 @@ export type MemoryShot =
 const p = (id: string, fx = 0.5, fy = 0.45): MemoryPhoto => ({ id, fx, fy });
 
 export const memoryShots: MemoryShot[] = [
-  // ── Opening (song 85 intro) ───────────────────────────────────────────
+  // ── Opening (song 154) ───────────────────────────────────────────
   { kind: "title", at: 0, kicker: "Galkhuu & Akane", title: "Every story has a beginning" },
   // ── Chapter I · The Beginning ─────────────────────────────────────────
   { kind: "title", at: 6.5, chapter: "I", kicker: "Chapter One", title: "The Beginning" },
   { kind: "feature", at: 10.5, photo: p("44", 0.5, 0.4), cam: "pushInSlow", chapter: "I" },
-  { kind: "feature", at: 16.5, photo: p("38", 0.5, 0.6), cam: "driftLeft", chapter: "I" },
-  { kind: "feature", at: 21.5, photo: p("45"), cam: "pullOut", chapter: "I" },
-  { kind: "feature", at: 26.5, photo: p("12"), cam: "driftRight", chapter: "I" },
-  { kind: "feature", at: 32.0, photo: p("10"), cam: "pushInSlow", chapter: "I" },
-  { kind: "feature", at: 37.5, photo: p("26"), cam: "driftLeft", chapter: "I" },
-  { kind: "feature", at: 43.0, photo: p("36"), cam: "pullOut", chapter: "I" },
+  { kind: "feature", at: 17.0, photo: p("38", 0.5, 0.6), cam: "driftLeft", chapter: "I" },
+  { kind: "feature", at: 23.5, photo: p("45"), cam: "pullOut", chapter: "I" },
+  { kind: "feature", at: 29.5, photo: p("12"), cam: "driftRight", chapter: "I" },
+  { kind: "feature", at: 35.5, photo: p("10"), cam: "pushInSlow", chapter: "I" },
+  { kind: "feature", at: 42.0, photo: p("36"), cam: "pullOut", chapter: "I" },
   { kind: "gallery", at: 48.5, photos: [p("19"), p("06")], cam: "pushInSlow", chapter: "I" },
-  // ── Chapter II · The People in Our Lives (song 85, second half) ──────
+  // ── Chapter II · The People in Our Lives ──────────────────────────────
   { kind: "title", at: 55.0, chapter: "II", kicker: "Chapter Two", title: "The People in Our Lives" },
   { kind: "feature", at: 59.0, photo: p("11"), cam: "pushInSlow", chapter: "II" },
   { kind: "gallery", at: 65.0, photos: [p("05"), p("40")], cam: "driftRight", chapter: "II" },
