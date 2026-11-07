@@ -31,6 +31,8 @@ $ReleaseBase = 'https://github.com/BeBecpp/wedding_movie/releases/download/weddi
 $Public = [ordered]@{
   'Galkhuu_Akane_43_Photos_and_Manifests.zip' = '24dd601dece9c51af381e8e6aed3a433c772cc4bab5cd50d0a65e2e4b69b0b27'
   'Galkhuu_Akane_Closing_Screen.png' = 'e10a61188691e0e6598bea7c65075d647b9a3565bbac80ec02bfa9513a0736b5'
+  'Galkhuu_Akane_FINAL_154_132_1080p.mp4' = '3104d67621a2ce9d88ad3c411f11a65757ac27da8b723bc20f148b974ce9857f'
+  'Galkhuu_Akane_FINAL_154_132_Zoom_720p.mp4' = 'f6a77db72329de54689181c768a603213bc510497f9a92a6824c8820b274e48a'
   'Galkhuu_Akane_Fallback_Still.png' = 'ac37dde5bf292348b6c6ea2ed0da96bad1707b1537f088f300ec342e566be33f'
   'Galkhuu_Akane_MemoryFilm_1080p_SILENT.mp4' = 'e42f31e53ed2b6d3f479fab495b32bba395fbfbc2b003f0eee7bfa87a5dca2be'
   'Galkhuu_Akane_MemoryFilm_TitleStill.png' = '1ef6a73261d641da5840068b7740f4f5f1bb23844094107690f8ae75a3785452'
@@ -43,17 +45,15 @@ $Public = [ordered]@{
 }
 # name -> SHA-256 (LOCAL ONLY - music versions; never published, copy from USB with -OfflineSource)
 $LocalOnly = [ordered]@{
-  'Galkhuu_Akane_FINAL_154_132_1080p.mp4' = '3104d67621a2ce9d88ad3c411f11a65757ac27da8b723bc20f148b974ce9857f'
   'Galkhuu_Akane_FINAL_154_132_SOUNDTRACK.m4a' = 'a9b13e7d1d9ca3782b60092f3bfc7fc13f0bf303997cce44d8436b5be6393b08'
-  'Galkhuu_Akane_FINAL_154_132_Zoom_720p.mp4' = 'f6a77db72329de54689181c768a603213bc510497f9a92a6824c8820b274e48a'
 }
 # expected media facts: name -> width, height, seconds, hasAudio
 $Media = @{
+  'Galkhuu_Akane_FINAL_154_132_1080p.mp4' = @(1920, 1080, 254.0, $true)
+  'Galkhuu_Akane_FINAL_154_132_Zoom_720p.mp4' = @(1280, 720, 254.0, $true)
   'Galkhuu_Akane_MemoryFilm_1080p_SILENT.mp4' = @(1920, 1080, 254.0, $false)
   'Galkhuu_Akane_MemoryFilm_Zoom_720p_SILENT.mp4' = @(1280, 720, 254.0, $false)
   'Galkhuu_Akane_Waiting_Loop_1080p.mp4' = @(1920, 1080, 60.0, $false)
-  'Galkhuu_Akane_FINAL_154_132_1080p.mp4' = @(1920, 1080, 254.0, $true)
-  'Galkhuu_Akane_FINAL_154_132_Zoom_720p.mp4' = @(1280, 720, 254.0, $true)
 }
 
 function Say($msg, $color = 'Gray') { Write-Host $msg -ForegroundColor $color }

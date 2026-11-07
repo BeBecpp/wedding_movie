@@ -22,4 +22,4 @@ Picture: the final MP4s reuse the approved silent masters with `-c:v copy` (fram
 
 ## Rights status
 - **Hall playback + Zoom Share Sound:** approved by the user in chat on 2026-11-07.
-- **Public redistribution (GitHub, internet):** **NOT confirmed.** The jw.org terms allow personal, noncommercial downloads, not republication. So the music MP4s and the M4A are **LOCAL ONLY** (LOCAL_ONLY_MUSIC folder / USB). The GitHub release contains only the **silent** versions.
+- **Public redistribution (GitHub, internet):** **confirmed by the user in chat on 2026-11-07** ("Yes, publish with music"), after being told that the jw.org terms allow personal downloads, not public republication. The final music films `Galkhuu_Akane_FINAL_154_132_1080p.mp4` and `_Zoom_720p.mp4` are therefore on the public release. The standalone soundtrack M4A and the source MP3s stay local.

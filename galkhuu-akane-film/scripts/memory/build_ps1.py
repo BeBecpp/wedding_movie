@@ -2,7 +2,7 @@ import hashlib, os, subprocess, json
 D = "DELIVERY_Galkhuu_Akane_20261107"; P = f"{D}/PUBLIC_RELEASE"; L = f"{D}/LOCAL_ONLY_MUSIC"
 h = lambda f: hashlib.sha256(open(f, "rb").read()).hexdigest()
 pub = sorted(f for f in os.listdir(P) if f.endswith((".mp4", ".png", ".zip")))
-loc = sorted(f for f in os.listdir(L) if f.endswith((".mp4", ".m4a")))
+loc = sorted(f for f in os.listdir(L) if f.endswith((".mp4", ".m4a")) and f not in pub)
 def probe(f):
     j = json.loads(subprocess.run(["ffprobe", "-v", "error", "-show_entries", "stream=codec_type,width,height:format=duration", "-of", "json", f], capture_output=True, text=True).stdout)
     v = next(s for s in j["streams"] if s["codec_type"] == "video"); a = any(s["codec_type"] == "audio" for s in j["streams"])
